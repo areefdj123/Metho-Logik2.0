@@ -1,0 +1,227 @@
+@media (max-width: 768px) {
+    ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .btn {
+        height: 47px !important;
+        width: 7rem !important;
+    }
+    #mainlogo{
+        width: 40% !important;
+    }
+
+    nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        gap: 2px;
+    }
+    .container1{
+        flex-direction: column;
+        margin: 0 !important;
+    }
+    #headermainheading{
+        text-align: center;
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+    .mainimg{
+        width: 100% !important;
+    }
+    #container1mainimg{
+        width: 100% !important;
+    }
+    #firstsectionimg{
+        width: 94% !important;
+    }
+    #secondsection{
+        padding: 3rem 0 !important;
+    }
+    .secondsectionmaintext{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    #secondsectionmainheading{
+        font-size: 30px !important;
+        line-height: 35px !important;
+    }
+    .container2{
+        flex-direction: column !important;
+        padding: 1rem 20px !important;
+    }
+    .container2maintext{
+        width: 100% !important;
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    position: sticky;
+    z-index: 1000;
+    padding-bottom: 1rem;
+    padding-left: 2.3em;
+    padding-right: 2.3rem;
+}
+
+#mainlogo {
+    height: auto;
+    width: 15%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    list-style: none;
+}
+
+li a {
+    font-size: 16px !important;
+    row-gap: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(182, 20, 23);
+}
+
+.btn {
+    height: 41px;
+    width: 13rem;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: rgb(182, 20, 23);
+    padding: 20x;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(182, 20, 23);
+    border-color: rgb(182, 20, 23);
+    transition: .15s ease-in-out;
+}
+header{
+    padding: 7rem 0 3rem 0;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.mainimg{
+    width: 33%;
+}
+#headermainheading{
+    font-family: sans-serif;
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 55px;
+    color: rgb(33, 37, 41);
+}
+#firstsectionmainheading{
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    color: rgb(33, 37, 41);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.imagessection{
+    display: flex;
+    justify-content: center;
+}
+#firstsectionimg{
+    height: auto;
+    width: 60%;
+}
+#secondsection{
+    padding: 9rem 0;
+}
+.secondsectionmaintext{
+    margin-left: 11rem;
+    margin-right: 11rem;
+}
+#secondsectionmainheading{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 55px;
+    color: rgb(33, 37, 41);
+    text-align: center;
+}
+#secondsectionmainpara{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(33, 37, 41);
+    margin: 1rem 0;
+}
+#thirdsection{
+    border-radius: 2rem;
+    box-shadow: 0px -5px 10px hsla(0, 1%, 47%, 0.25);
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}
+.container2maintext{
+    width: 50%;
+}
+#container2mainheading{
+    font-family: sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 55px;
+    color: rgb(33, 37, 41);
+    margin-bottom: 1rem;
+}
+#container2mainpara{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(33, 37, 41);
+}
+.container3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5rem;
+}

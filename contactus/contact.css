@@ -21,40 +21,13 @@
         gap: 2px;
     }
     .container{
-        flex-direction: column !important;
         padding: 0 1rem !important;
     }
     #mainheading{
-        font-size: 30px !important;
-    }
-    #firstsectionmainheading{
-        font-size: 30px !important;
-    }
-    .optionboxes{
-        flex-direction: column !important;
-        gap: 1rem !important;
-    }
-    #thirdsectionmainheading{
-        font-size: 30px !important;
-    }
-    .boxes{
-        padding: 0 1rem !important;
-    }
-    .fifthsectionmaintext{
-        flex-direction: column !important;
-        padding: 0 1rem !important;
-        gap: 1rem !important;
-    }
-    .sixthsectionmaintext{
-        padding: 0 1rem !important;
-    }
-    #sixthsectionmainheading{
         font-size: 36px !important;
+        line-height: 40px !important;
     }
-    #sixthsectionmainpara{
-        font-size: 16px !important;
-    }
-     #ninthsection{
+    #ninthsection{
         margin-top: 5rem !important;
     }
     .container6{
@@ -97,14 +70,12 @@
     }
     .leftside{
         height: 100% !important;
-        width: 100% !important;
-        padding: 10px !important;
+        width: 73% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
         border-top: hidden;
-        width: 100% !important;
-        /* padding: 10px !important; */
+        width: 73% !important;
     }
     .fullname{
         width: 84% !important;
@@ -143,7 +114,7 @@
     }
 
     #container9 {
-        padding: 1rem !important;
+        padding: 2rem !important;
         gap: 20px  !important;
         flex-direction: column !important;
         display: flex !important;
@@ -183,7 +154,6 @@
 *{
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 nav {
     display: flex;
@@ -259,509 +229,18 @@ a:hover {
     transition: .15s ease-in-out;
 }
 header{
-    padding: 10rem 0 3rem 0;
-}
-.maintext{
-    text-align: center;
-    
-}
-#mainheading{
-    font-size: 43px;
-    font-family: sans-serif;
-    font-weight: 900;
-    color: rgb(33, 37, 41);
-    text-align: center;
-    margin-bottom: 1rem;
-}
-#maintextlink{
-    text-align: center;
-    text-decoration: none;
-    color: rgb(182, 20, 23);
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 600;
-}
-.getintouchlink i{
-    color: rgb(182, 20, 23);
+    padding: 10rem 0 1rem 0;
 }
 .container{
-    padding: 0 6rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 5rem;
 }
-#firstsection{
-    padding: 5rem 0;
-    background-color:  #F5F5F5;
-}
-#firstsectionmainheading{
+#mainheading{
     font-family: sans-serif;
-    font-size: 36px;
+    font-size: 75px;
+    line-height: 85px;
+    text-align: center;
     font-weight: 900;
     color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-#firstsectionfirstpara{
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-#firstsectionsecondpara{
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-#firstsectionthirdpara{
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-#firstsectionfourthpara{
-    font-family: sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-.firstsectionmainimage{
-    width: 100%;
-    
-}
-#firstsectionmainimg{
-    width: 100%;
-}
-#secondsection{
-    padding: 3rem 0 3rem;
-}
-.optionboxes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 3rem;
-}
-.optionbox1{
-    border: 1px solid rgb(182, 20, 23);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#optionbox1para{
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: black;
-    text-align: center;
-}
-.optionbox2{
-    border: 1px solid rgb(182, 20, 23);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#optionbox2para{
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: black;
-    text-align: center;
-}
-.optionbox3{
-    border: 1px solid rgb(182, 20, 23);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#optionbox3para{
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: black;
-    text-align: center;
-}
-.optionbox4{
-    border: 1px solid rgb(182, 20, 23);
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-#optionbox4para{
-    font-size: 16px;
-    font-family: sans-serif;
-    font-weight: 600;
-    color: black;
-    text-align: center;
-}
-#secondsectionmaintextheading{
-    text-align: left;
-    font-family: sans-serif;
-    font-size: 26px;
-    font-weight: 600;
-    color: rgb(33, 37, 41);
-    margin-bottom: 2rem;
-}
-.boodstrap{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-    
-}
-.boodstrap i{
-    color: rgb(182, 20, 23);
-}
-#boodstrappara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-}
-.erpnext{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-.erpnext i{
-    color: rgb(182, 20, 23);
-}
-#erpnextpara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-} 
-.erpnext i{
-    color:  rgb(182, 20, 23);
-}
-.frontend{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 2rem;
-}
-.frontend i{
-    color: rgb(182, 20, 23);
-}
-#frontendpara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 500;
-    color: rgb(33, 37, 41);
-}
-#thirdsection{
-    padding: 3rem 0;
-    background-color: #F5F5F5;
-}
-#thirdsectionmainheading{
-    font-family: sans-serif;
-    font-size: 43px;
-    font-weight: 900;
-    color: rgb(33, 37, 41);
-    margin-bottom: .5rem;
-}
-#thirdsectionmainpara{
-    font-size: 14px;
-    font-family: sans-serif;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-    margin-bottom: 3rem;
-}
-#thirdsectionmainimage{
-    width: 100%;
-}
-.dedicatedresource{
-    display: flex;
-    gap: 1rem;
-}
-.dedicatedresource i{
-    color: rgb(182, 20, 23);
-}
-#dedicatedresourcepara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-.parttime{
-    display: flex;
-    gap: 1rem;
-}
-.parttime i{
-    color: rgb(182, 20, 23);
-}
-#parttimepara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-    margin-bottom: 1rem;
-}
-.teamextension{
-    display: flex;
-    gap: 1rem;
-}
-.teamextension i{
-    color: rgb(182, 20, 23);
-}
-#teamextensionpara{
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-#fourthsection{
-    padding: 3rem 0;
-}
-#fourthsectionmainheading{
-    font-family: sans-serif;
-    font-size: 36px;
-    font-weight: 900;
-    color: rgb(33, 37, 41);
-    text-align: center;
-    margin-bottom: 2rem;
-}
-.boxes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; 
-    gap: 3rem;
-    padding: 0 6rem;
-}
-.box1{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-}
-#box1para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-.box2{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-    
-}
-#box2para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-.box3{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-}
-#box3para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-.box4{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-}
-#box4para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-.box5{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-}
-#box5para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-.box6{
-    background-color: #F5F5F5;
-    height: 11rem;
-    width: 19rem;
-    padding: 1rem;
-    border: 1px solid #D9D9D9;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .15)
-}
-#box6para{
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 1.5rem;
-}
-#fifthsection{
-    padding: 3rem 0;
-    background-color: #F5F5F5;
-}
-.fifthsectionmaintext{
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    gap: 10rem;
-    padding: 0 6rem;
-}
-#fifthsectionmainheading{
-    text-align: center;
-    font-family: sans-serif;
-    font-weight: 900;
-    font-size: 36px;
-}
-.saasproduct{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#saasproductpara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-.transportation{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#transportationpara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-.retail{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#retailpara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-.healthcare{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#healthcarepara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-.education{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#educationpara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-.others{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-#otherspara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    color: rgb(33, 37, 41);
-}
-#sixthsection{
-    background-color: rgb(182, 20, 23);
-    padding: 3rem 0;
-}
-.sixthsectionmaintext{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 6rem;
-}
-#sixthsectionmainheading{
-    font-family: sans-serif;
-    font-size: 46px;
-    font-weight: 900;
-    text-align: center;
-    color: white;
-    margin-bottom: 1.5rem;
-}
-#sixthsectionmainpara{
-    font-family: sans-serif;
-    font-size: 20px;
-    font-weight: 500;
-    color: white;
-    text-align: center;
-}
-
-#newbutton{
-    text-align: center;
-    height: 2.8rem;
-    width: 8rem;
-    font-family: sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    color: #B61417;
-    background-color: white;
-    border-radius: 17px;
-    border-color: white;
-    margin-top: 2rem;
 }
 #ninthsection{
     text-align: center;

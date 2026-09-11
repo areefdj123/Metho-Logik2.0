@@ -15,6 +15,9 @@
     nav {
         margin-bottom: 10rem !important;
     }
+    #mainlogo{
+        width: 50% !important;
+    }
 
     header {
         margin-bottom: 10px !important;
@@ -153,7 +156,7 @@
     }
     .rightside{
         border-top: hidden;
-        width: 77% !important;
+        width: 73% !important;
     }
     .fullname{
         width: 84% !important;
@@ -1049,6 +1052,7 @@ video {
     color: #e2d5d5;
 }
 footer {
+    margin-top: 2rem;
     background-color: #212529;
     /* height: 100vh; */
 }

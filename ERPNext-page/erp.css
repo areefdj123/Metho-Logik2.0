@@ -177,11 +177,13 @@
         flex-direction: column;
     }
     .leftside{
+        padding: 1rem !important;
         height: 100% !important;
         width: 100% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
+        padding: 1rem !important;
         border-top: hidden;
         width: 100% !important;
     }
@@ -352,7 +354,7 @@ header {
 }
 
 #mainheading {
-    font-size: 58px;
+    font-size: 48px;
     font-family: sans-serif;
     font-weight: 900;
     margin-bottom: .5rem;
@@ -1190,6 +1192,7 @@ header {
     color: #e2d5d5;
 }
 footer {
+    margin-top: 2rem;
     background-color: #212529;
     /* height: 100vh; */
 }

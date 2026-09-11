@@ -1,0 +1,874 @@
+@media (max-width: 768px) {
+    ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .btn {
+        height: 47px !important;
+        width: 7rem !important;
+    }
+    #mainlogo{
+        width: 40% !important;
+    }
+
+    nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        gap: 2px;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 0 1rem !important;
+    }
+    .maintext{
+        padding: 0 1rem !important;
+    }
+    #mainheading{
+        font-size: 36px !important;
+        line-height: 45px !important;
+        text-align: center !important;
+    }
+    #firstsection{
+        width: 100% !important;
+    }
+    .searchinput{
+        width: 90% !important;
+    }
+    .thirdsectionmaintext{
+        padding: 0 1rem !important;
+    }
+    .card1{
+        width: 19rem !important;
+    }
+    .card2{
+        width: 19rem !important;
+    }
+    .card3{
+        width: 19rem !important;
+    }
+    .card4{
+        width: 19rem !important;
+    }
+    .card5{
+        width: 19rem !important;
+    }
+    .card6{
+        width: 19rem !important;
+    }
+    footer {
+        margin-top: 31rem !important;
+        /* height: 100%; */
+        position: relative;
+    }
+
+    #container9 {
+        padding: 1rem !important;
+        gap: 20px  !important;
+        flex-direction: column !important;
+        display: flex !important;
+        flex-wrap: wrap;
+        height: 100% !important;
+    }
+
+    #footerlogo {
+        max-width: 390% !important;
+    }
+
+    .firstsection {
+        width: 90% !important;
+    }
+
+    .secondsection {
+        width: 90% !important;
+    }
+
+    .thirdsection {
+        width: 90% !important;
+    }
+
+    .fourthsection {
+        width: 90% !important;
+    }
+
+    .fifthsection {
+        width: 90% !important;
+    }
+
+    #secheadlegals {
+        margin-top: 2rem !important;
+
+    }
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 1rem;
+    position: sticky;
+    z-index: 1000;
+    padding-bottom: 1rem;
+    padding-left: 2.3em;
+    padding-right: 2.3rem;
+}
+
+#mainlogo {
+    height: auto;
+    width: 15%;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+
+nav ul {
+    display: flex;
+    gap: 37px;
+    justify-content: center;
+    list-style: none;
+}
+
+li a {
+    font-size: 16px !important;
+    row-gap: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    justify-content: center;
+    font-size: 16px;
+}
+
+a:hover {
+    color: rgb(182, 20, 23);
+}
+
+.btn {
+    height: 41px;
+    width: 13rem;
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border: 1px solid black;
+    border-radius: 2rem;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+.btn a:hover {
+    color: rgb(182, 20, 23);
+    padding: 20x;
+
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(182, 20, 23);
+    border-color: rgb(182, 20, 23);
+    transition: .15s ease-in-out;
+}
+header{
+    padding: 10rem 0 3rem 0;
+}
+.container{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+.maintext{
+    padding: 0 5rem;
+}
+#mainheading{
+    font-family: sans-serif;
+    font-size: 80px;
+    font-weight: 900;
+    color: rgb(33, 37, 41);
+    text-align: center;
+    line-height: 90px;
+    margin-bottom: 1rem;
+}
+#mainpara{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.75);
+    text-align: center;
+    margin-bottom: 5rem;
+}
+#firstsection{
+    background: #f8fafc;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.searchinput{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    align-items: stretch;
+    width: 20rem;
+    height: 2.5rem;
+}
+.searchinput i{
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#searchinput{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+select{
+    width: 14rem;
+    height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#filterbutton{
+    height: 2.5rem;
+    width: 6rem;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+#filterbutton:hover{
+    background-color: rgb(42, 41, 41);
+    transition: .15s ease-in-out;
+}
+#thirdsection{
+    padding: 3rem 0;
+}
+.thirdsectionmaintext{
+    padding: 0 5rem;
+}
+#thirdsectionmainheading{
+    font-family: sans-serif;
+    font-size: 43px;
+    margin-bottom: 2rem;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.card1{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card1img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard1{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card1heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 26px;
+}
+#card1para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+.dateandtime{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+.datecard1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard1{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.time{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#timecard1{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+#read{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+    padding: 0 1rem 0 1rem; 
+    align-items: center;
+}
+.card2{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card2img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard2{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card2heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 24px;
+}
+#card2para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+
+.datecard2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard2{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+#timecard2{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.card3{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card3img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard3{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card3heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 24px;
+}
+#card3para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+.datecard3{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard3{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.timecard3{
+    display: flex;
+}
+#timecard3{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.card4{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card4img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard4{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 45%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card4heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 24px;
+}
+#card4para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+.datecard4{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard4{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.timecard4{
+    display: flex;
+}
+#timecard4{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.card5{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card5img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard5{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card5heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 24px;
+}
+#card5para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+.datecard5{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard5{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.timecard5{
+    display: flex;
+}
+#timecard5{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.card6{
+    border: 1px solid #dee2e6;
+    width: 22rem;
+    height: 35rem;
+    border-radius: 1rem;
+}
+#card6img{
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.tagcard6{
+    border: 1px solid #dee2e6;
+    background-color: #F8F9FA;
+    border-radius: 5px;
+    width: 30%;
+    padding: 2px;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 600;
+}
+#card6heading{
+    font-family: sans-serif;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    font-size: 24px;
+}
+#card6para{
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: rgba(33, 37, 41, 0.75);
+    border-bottom: 1px solid #dee2e6;
+}
+.datecard6{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#datecard6{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+.timecard6{
+    display: flex;
+}
+#timecard6{
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgba(33, 37, 41, 0.75);
+}
+#fourthsection{
+    padding: 5rem 0;
+    background-color: #B61417;
+}
+#fourthsectionmainheading{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 43px;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 1rem;
+}
+#fourthsectionmainpara{
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: white;
+}
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#newbutton{
+    align-items: center;
+    text-align: center;
+    height: 2.8rem;
+    width: 12rem;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #B61417;
+    background-color: white;
+    border-radius: 17px;
+    border-color: white;
+    margin-top: 2rem;
+}
+footer {
+    background-color: #212529;
+    /* height: 100vh; */
+}
+#container9 {
+    height: 90vh;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+}
+#footerlogo{
+    height: 11%;
+    max-width: 60%;
+}
+
+#container9 .firstsection {
+    margin-top: 40px;
+    width: 30%;
+    padding: 0 20px;
+}
+
+#lastp {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: rgb(217, 217, 217);
+    margin: 1.5rem 0;
+}
+#container9 .secondsection {
+    text-align: center;
+    margin-top: 40px;
+    width: 18%;
+    padding: 0 30px;
+
+}
+.booking {
+    margin-top: 1rem;
+    background-color: rgb(182, 20, 23);
+    border-color: rgb(182, 20, 23);
+    height: 45px;
+    width: 13rem;
+    border-radius: 12px;
+    border: 1px solid rgb(182, 20, 23);
+    cursor: pointer;
+    animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
+}
+
+.booking a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+
+
+}
+
+#secheadlast {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+    margin-bottom: 30px;
+
+}
+
+#secheadlast a {
+    text-align: left;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(217, 217, 217);
+
+
+}
+
+#secheadlegals {
+    margin-top: 7rem;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+}
+
+#privacypolicy {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: rgb(217, 217, 217);
+}
+
+#container9 .thirdsection {
+    text-align: center;
+    margin-top: 40px;
+    width: 18%;
+    padding: 0 30px;
+}
+
+#thirdhead {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+    margin-bottom: 20px;
+
+}
+
+#location {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(217, 217, 217);
+}
+
+#container9 .fourthsection {
+    text-align: center;
+    margin-top: 40px;
+    width: 18%;
+    padding: 0 30px;
+}
+
+#fourthhead {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+    margin-bottom: 20px;
+}
+
+#fourthp {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(217, 217, 217);
+
+}
+
+#afourthp {
+    text-decoration: none;
+    font-weight: normal;
+    color: rgb(217, 217, 217);
+}
+
+#container9 .fifthsection {
+    text-align: center;
+    margin-top: 40px;
+    width: 18%;
+    padding: 0 30px;
+}
+
+#fifthhead {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+    margin-bottom: 20px;
+}
+
+#email {
+    cursor: pointer;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(217, 217, 217);
+}
+
+#officehead {
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(248, 249, 250);
+    margin-bottom: 10px;
+}
+
+#number {
+    cursor: pointer;
+    font-family: sans-serif;
+    font-size: 16px;
+    color: rgb(217, 217, 217);
+}
+
+.follow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    color: rgb(217, 217, 217);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+}
+
+.lastflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.end {
+    border-top: 1px solid rgb(96, 96, 96);
+    border-bottom: 1px solid rgb(96, 96, 96);
+}
+
+#end {
+    padding: 1.5rem 0;
+    text-align: center;
+    font-family: sans-serif;
+    color: rgb(217, 217, 217);
+}

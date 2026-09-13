@@ -1,4 +1,4 @@
-@media (max-width:786px) {
+@media (min-width: 200px) and (max-width:767px) {
     ul {
         display: none;
     }
@@ -14,19 +14,22 @@
 
     nav {
         margin-bottom: 10rem !important;
+        display: flex;
+        justify-content: center;
     }
     #mainlogo{
         width: 50% !important;
     }
 
     header {
+        padding: 0rem 0 3rem 0 !important;
         margin-bottom: 10px !important;
     }
 
-    .container1 {
+    .container {
         display: flex;
         flex-direction: column;
-        padding: 0 0 !important;
+        padding: 0 1rem !important;
         margin: 0px !important;
     }
 
@@ -37,6 +40,7 @@
         line-height: 30px !important;
         text-align: center;
         align-items: center;
+        margin-bottom: 1rem !important;
     }
 
     .para1 {
@@ -48,7 +52,9 @@
 
     }
 
-
+    .container2{
+        padding: 0 1rem !important;
+    }
     .development {
         flex-direction: column;
     }
@@ -56,6 +62,7 @@
     .heading2 {
         font-size: 30px !important;
         line-height: 30px !important;
+        padding: 0 1rem !important;
     }
 
     .container3 {
@@ -68,9 +75,12 @@
     .sections {
         width: 80vw !important;
     }
-
-    .oneimage {
-        max-width: 100% !important;
+    .oneimage{
+        width: 100% !important;
+        text-align: center;
+    }
+    #oneimg {
+        width: 100% !important;
     }
 
     .container4 {
@@ -83,6 +93,7 @@
 
     .para3 {
         padding: 0 1rem !important;
+        font-size: 16px !important;
     }
 
     #red1 {
@@ -119,6 +130,9 @@
     #img3 {
         display: none;
     }
+    .container5{
+        padding: 0 1rem !important;
+    }
     .lastimages{
         margin-bottom: 78px !important;
         flex-direction: column;
@@ -140,7 +154,7 @@
         padding-bottom: 16px !important;
     }
     #fifth{
-        margin-top: 22rem;
+        margin-top: 2rem;
     }
     .container6{
         padding-left: 10px !important;
@@ -155,7 +169,8 @@
         border-top-left-radius: 20px !important;
     }
     .rightside{
-        border-top: hidden;
+        border-top-right-radius: 0px !important;
+        border-bottom-right-radius: 0px !important;
         width: 73% !important;
     }
     .fullname{
@@ -188,7 +203,7 @@
 
     }
     footer {
-        margin-top: 31rem !important;
+        margin-top: 3rem !important;
         /* height: 100%; */
         position: relative;
     }
@@ -198,6 +213,7 @@
         display: flex !important;
         flex-wrap: wrap;
         height: 100% !important;
+        padding: 0 1rem !important;
     }
 
     #footerlogo {
@@ -209,24 +225,188 @@
     }
 
     .secondsection {
+        padding: 0 1rem !important;
         width: 90% !important;
     }
 
     .thirdsection {
         width: 90% !important;
+        padding: 0 1rem !important;
     }
 
     .fourthsection {
         width: 90% !important;
+        padding: 0 1rem !important;
     }
 
     .fifthsection {
         width: 90% !important;
+        padding: 0 1rem !important;
     }
 
     #secheadlegals {
         margin-top: 2rem !important;
 
+    }
+    .container9{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .firstsection{
+        width: 87% !important;
+    }
+    .secondsection{
+        width: 30% !important;
+    }
+    .thirdsection{
+        width: 30% !important;
+    }
+    .fourthsection{
+        width: 30% !important;
+    }
+    .fifthsection{
+        width: 90% !important;
+    }
+}
+@media (min-width: 700px) and (max-width: 1024px) {
+    ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .btn {
+        height: 47px !important;
+        width: 8rem !important;
+    }
+
+    nav {
+        margin-bottom: 0rem !important;
+        display: flex;
+        justify-content: center;
+    }
+    #mainlogo{
+        max-width: 25%;
+    }
+    header{
+        padding: 3rem 0 !important;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 0 5rem !important;
+    }
+    .para1{
+        margin-top: 1rem !important;
+    }
+    #red1{
+        display: none;
+    }
+    #img1{
+        display: none;
+    }
+    #red2{
+        display: none;
+    }
+    #black1{
+        display: none;
+    }
+    #black2{
+        display: none;
+    }
+    #img3{
+        display: none;
+    }
+    #img2{
+        display: none;
+    }
+    .development{
+        padding: 2rem !important;
+    }
+    .developmentp1{
+        font-size: 16px !important  ;
+    }
+    .developmentp2{
+        font-size: 16px !important;
+    }
+    .developmentp3{
+        font-size: 16px !important;
+    }
+    .oneimage{
+        width: 80% !important;
+    }
+    #oneimg{
+        width: 85% !important;
+    }
+    .sections{
+        width: 100% !important;
+    }
+    .para3{
+        padding: 0 1rem !important;
+    }
+    #fourth{
+        padding-bottom: 0px !important;
+    }
+    .lastimages{
+        margin: 0px !important;
+    }
+    #google{
+        max-width: 25% !important;
+    }
+    #good{
+        max-width: 25% !important;
+    }
+    .sectionend{
+        width: 80% !important;
+        flex-direction: column !important;
+    }
+    .inputs{
+        display: block !important;
+        width: 100% !important;
+    }
+    .leftside{
+        width: 85% !important;
+    } 
+    #fullinput{
+        width: 160% !important;
+        margin-bottom: 2rem;
+    }
+    #emailinput{
+        width: 160% !important;
+    } 
+    #numberinput{
+        width: 160% !important;
+    }
+    #interested_in{
+        width: 170% !important;
+    } 
+    #productinput{
+        width: 117% !important;
+    }
+    .rightside{
+        border-top-right-radius: 0px !important;
+        width: 85% !important;
+    }
+    .container9{
+        /* flex-direction: column !important; */
+        flex-wrap: wrap !important;
+    }
+    .firstsection{
+        width: 87% !important;
+    }
+    .secondsection{
+        width: 30% !important;
+    }
+    .thirdsection{
+        width: 30% !important;
+    }
+    .fourthsection{
+        width: 30% !important;
+    }
+    .fifthsection{
+        width: 50% !important;
     }
 }
 
@@ -241,10 +421,9 @@ nav {
     margin-top: 30px;
     position: sticky;
     z-index: 1000;
-    margin-bottom: 22rem;
 }
 
-nav>img-logo {
+#mainlogo {
     height: auto;
     max-width: auto;
     margin: 0px;
@@ -260,7 +439,7 @@ nav ul {
 
 li a {
     row-gap: 20px;
-    font-size: 20px !important;
+    font-size: 17px !important;
     font-family: sans-serif;
     text-decoration: none;
     color: black;
@@ -307,20 +486,15 @@ a:hover {
 }
 
 header {
-    /* display: flex; */
-    margin-bottom: 25rem;
+    padding: 17rem 0 31.5rem 0;
 
 }
 
-.container1 {
+.container {
     display: flex;
     justify-content: space-evenly;
-    /* align-items: center; */
-    gap: 50px;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    /* padding: 0 2rem; */
+    align-items: center;
+    padding: 0 5rem;
 }
 
 .heading1 {
@@ -385,7 +559,9 @@ header {
     top: 957px;
     right: 500px;
 }
-
+#secondsection{
+    padding: 3rem 0;
+}
 .container2 {
     display: flex;
     justify-content: center;
@@ -462,10 +638,10 @@ header {
 }
 
 .oneimage {
-    max-width: 50%;
+    width: 50%;
 }
 
-.oneimage img {
+#oneimg{
     max-width: 70%;
     height: auto;
 }
@@ -734,7 +910,7 @@ video {
 }
 
 #fullinput {
-    max-width: 100%;
+    width: 78%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -747,7 +923,7 @@ video {
 }
 
 #emailinput {
-    max-width: 100%;
+    width: 80%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -776,7 +952,7 @@ video {
 }
 
 #numberinput {
-    max-width: 100%;
+    width: 80%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -799,7 +975,7 @@ video {
 
 #interested_in {
     /* margin-left: 50px; */
-    max-width: 100%;
+    width: 100%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1052,40 +1228,34 @@ video {
     color: #e2d5d5;
 }
 footer {
-    margin-top: 2rem;
     background-color: #212529;
     /* height: 100vh; */
 }
+
 .container9 {
-    height: 90vh;
-    /* background-color: crimson; */
-    /* width: 100%; */
     padding-right: 2rem;
     padding-left: 2rem;
     margin-right: auto;
     margin-left: auto;
     display: flex;
 }
-#footerlogo{
-    height: 11%;
-    max-width: 60%;
-}
 
-.container9 .firstsection {
+.firstsection {
     margin-top: 40px;
-    width: 30%;
+    width: 25%;
     padding: 0 20px;
 }
 
-#lastp {
-    font-size: 16px;
+.lastp {
+    font-size: 14px;
     line-height: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: rgb(217, 217, 217);
     margin: 1.5rem 0;
 }
-.container9 .secondsection {
+
+.secondsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1094,17 +1264,17 @@ footer {
 
 #secheadlast {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 
 }
 
 #secheadlast a {
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(217, 217, 217);
 
@@ -1120,13 +1290,13 @@ footer {
 }
 
 #privacypolicy {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
     font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-.container9 .thirdsection {
+.thirdsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1137,18 +1307,18 @@ footer {
     font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 
 }
 
 #location {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-.container9 .fourthsection {
+.fourthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1163,9 +1333,9 @@ footer {
 }
 
 #fourthp {
-    margin-top: 30px;
+    margin-top: 1.5rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 
 }
@@ -1176,7 +1346,7 @@ footer {
     color: rgb(217, 217, 217);
 }
 
-.container9 .fifthsection {
+.fifthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1192,16 +1362,16 @@ footer {
 
 #email {
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
 #officehead {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
     margin-bottom: 10px;
@@ -1210,7 +1380,7 @@ footer {
 #number {
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
@@ -1223,6 +1393,10 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
+}
+#follow{
+    font-size: 14px;
+    width: 100%;
 }
 
 .lastflex {
@@ -1240,6 +1414,7 @@ footer {
     padding: 1.5rem 0;
     text-align: center;
     font-family: sans-serif;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 

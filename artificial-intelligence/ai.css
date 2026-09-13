@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 767px) {
     ul {
         display: none;
     }
@@ -16,6 +16,10 @@
         padding-left: 0px !important;
         padding-right: 0px !important;
         gap: 2px;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 0 1rem !important;
     }
 
     #mainlogo {
@@ -82,6 +86,12 @@
         width: 86%!important;
         
     }
+    #container3mainheading{
+        font-size: 30px !important;
+    }
+    .container5{
+        padding: 0 1rem !important;
+    }
       .lastimages{
         margin-bottom: 78px !important;
         flex-direction: column;
@@ -105,9 +115,6 @@
     #good{
         max-width: 50% !important;
         padding-bottom: 16px !important;
-    }
-    #fifthsection{
-        margin-top: 22rem;
     }
     .container6{
         padding-left: 10px !important;
@@ -150,17 +157,19 @@
     #numberinput{
         width: 96% !important;
     }
-    .interested{
-        max-width: 100% !important; 
+    #interested_in{
+        width: 110% !important; 
 
     }
+    #productinput{
+        width: 122% !important;
+    }
      footer {
-        margin-top: 31rem !important;
         /* height: 100%; */
         position: relative;
     }
 
-    #container9 {
+    .container9 {
         padding: 2rem !important;
         gap: 20px  !important;
         flex-direction: column !important;
@@ -203,6 +212,126 @@
 
     }
 }
+    @media (min-width:768px) and (max-width: 1023px) {
+        ul {
+        display: none;
+    }
+
+    li {
+        display: none;
+    }
+
+    .btn {
+        height: 47px !important;
+        width: 7rem !important;
+    }
+
+    nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        gap: 2px;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 0 5rem !important;
+    }
+
+    #mainlogo {
+
+        width: 25% !important;
+    }
+    header{
+        padding: 5rem 0 !important;
+    }
+    #secondseclineimg{
+        width: 60% !important;
+    }
+    .container2mainimg{
+        width: 70% !important;
+    }
+    .container3{
+        flex-direction: column-reverse !important;
+        padding: 0 5rem !important;
+        gap: 0px !important;
+    }
+    .container3maintext{
+        width: 100% !important;
+    }
+    .listone{
+        width: 60vw !important;
+    }
+    .listsecond{
+        width: 60vw !important;
+    }
+    .listthird{
+        width: 60vw !important;
+    }
+    .listfourth{
+        width: 60vw !important;
+    }
+    .lastimages{
+        margin: 0rem 0 4rem !important;
+    }
+    #google{
+        max-width: 25% !important;
+    }
+    #good{
+        max-width: 25% !important;
+    }
+    .sectionend{
+        width: 80% !important;
+        flex-direction: column !important;
+    }
+    .inputs{
+        display: block !important;
+        width: 100% !important;
+    }
+     .leftside{
+        width: 85% !important;
+    } 
+    #fullinput{
+        width: 160% !important;
+        margin-bottom: 2rem;
+    }
+    #emailinput{
+        width: 160% !important;
+    } 
+    #numberinput{
+        width: 160% !important;
+    }
+    #interested_in{
+        width: 175% !important;
+    } 
+    #productinput{
+        width: 117% !important;
+    }
+    .rightside{
+        border-top-right-radius: 0px !important;
+        width: 85% !important;
+    }
+      .container9{
+        /* flex-direction: column !important; */
+        flex-wrap: wrap !important;
+    }
+    .firstsection{
+        width: 87% !important;
+    }
+    .secondsection{
+        width: 30% !important;
+    }
+    .thirdsection{
+        width: 30% !important;
+    }
+    .fourthsection{
+        width: 30% !important;
+    }
+    .fifthsection{
+        width: 50% !important;
+    }
+    .container3maintext{
+        width: 50% !important;
+    }
+    }
 *{
     margin: 0px;
     padding: 0px;
@@ -234,7 +363,7 @@ nav ul {
 }
 
 li a {
-    font-size: 20px !important;
+    font-size: 16px !important;
     row-gap: 20px;
     font-family: sans-serif;
     text-decoration: none;
@@ -283,6 +412,12 @@ a:hover {
 header{
     padding: 10rem 0 3rem 0px;
 }
+.container{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #mainvideo{
     width: 100%;
 }
@@ -313,7 +448,7 @@ header{
 #secondsecpara{
     font-family: sans-serif;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 16px;
     color:  black;
 }
 #thirdsection{
@@ -328,20 +463,21 @@ header{
 }
 #container2mainheading{
     font-family: sans-serif;
-    font-size: 55px;
+    font-size: 43px;
     font-weight: 900;
-    line-height: 70px;
-    color: black;
+    line-height: 50px;
+    color: rgb(33, 37 ,41);
 }
 #container2maintext{
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     font-weight: 400;
     color: rgb(33, 37 ,41);
     margin-top: 1rem;
     padding-right: 2rem;
 }
 .container2mainimg{
+    text-align: center;
     width: 100%;
 }
 #listsection{
@@ -495,12 +631,13 @@ header{
 
 }
 .container3maintext{
-    width: 25%;
+    width: 50%;
 }
 #container3mainheading{
-    font-size: 35px;
+    font-size: 40px;
     font-family: sans-serif;
     font-weight: 900;
+    color: rgb(33, 37 ,41);
     line-height: 45px;
     margin-bottom: 1rem;
 }
@@ -640,7 +777,7 @@ header{
 }
 
 #fullinput {
-    max-width: 100%;
+    width: 80%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -653,7 +790,7 @@ header{
 }
 
 #emailinput {
-    max-width: 100%;
+    width: 80%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -682,7 +819,7 @@ header{
 }
 
 #numberinput {
-    max-width: 100%;
+    width: 80%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -705,7 +842,7 @@ header{
 
 #interested_in {
     /* margin-left: 50px; */
-    max-width: 100%;
+    width: 100%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -740,7 +877,7 @@ header{
 }
 
 #productinput {
-    width: 112%;
+    width: 113%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -958,40 +1095,34 @@ header{
     color: #e2d5d5;
 }
 footer {
-    margin-top: 2rem;
     background-color: #212529;
     /* height: 100vh; */
 }
-#container9 {
-    height: 90vh;
-    /* background-color: crimson; */
-    /* width: 100%; */
+
+.container9 {
     padding-right: 2rem;
     padding-left: 2rem;
     margin-right: auto;
     margin-left: auto;
     display: flex;
 }
-#footerlogo{
-    height: 11%;
-    max-width: 60%;
-}
 
-#container9 .firstsection {
+.firstsection {
     margin-top: 40px;
-    width: 30%;
+    width: 25%;
     padding: 0 20px;
 }
 
-#lastp {
-    font-size: 16px;
+.lastp {
+    font-size: 14px;
     line-height: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: rgb(217, 217, 217);
     margin: 1.5rem 0;
 }
-#container9 .secondsection {
+
+.secondsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1000,17 +1131,17 @@ footer {
 
 #secheadlast {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 
 }
 
 #secheadlast a {
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(217, 217, 217);
 
@@ -1026,13 +1157,13 @@ footer {
 }
 
 #privacypolicy {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
     font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-#container9 .thirdsection {
+.thirdsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1043,18 +1174,18 @@ footer {
     font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 
 }
 
 #location {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-#container9 .fourthsection {
+.fourthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1069,9 +1200,9 @@ footer {
 }
 
 #fourthp {
-    margin-top: 30px;
+    margin-top: 1.5rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 
 }
@@ -1082,7 +1213,7 @@ footer {
     color: rgb(217, 217, 217);
 }
 
-#container9 .fifthsection {
+.fifthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1098,16 +1229,16 @@ footer {
 
 #email {
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
 #officehead {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
     margin-bottom: 10px;
@@ -1116,7 +1247,7 @@ footer {
 #number {
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
@@ -1129,6 +1260,10 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
+}
+#follow{
+    font-size: 14px;
+    width: 100%;
 }
 
 .lastflex {
@@ -1146,5 +1281,6 @@ footer {
     padding: 1.5rem 0;
     text-align: center;
     font-family: sans-serif;
+    font-size: 12px;
     color: rgb(217, 217, 217);
 }

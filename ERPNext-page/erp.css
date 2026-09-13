@@ -1,4 +1,4 @@
-@media (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 767px) {
     ul {
         display: none;
     }
@@ -21,6 +21,10 @@
 
     #mainlogo {
         width: 60% !important;
+    }
+    .container{
+        flex-direction: column !important;
+        padding: 0 1rem !important;
     }
 
     .maintext {
@@ -143,7 +147,7 @@
         padding-bottom: 4rem !important;
     }
     .lastimages{
-        margin-bottom: 78px !important;
+        margin-bottom: 0rem !important;
         flex-direction: column;
     }
     .para4{
@@ -159,15 +163,15 @@
         padding-bottom: 15px !important;
     }
     #google{
-        max-width: 50% !important;
+        max-width: 70% !important;
         margin-bottom: 15px !important;
     }
     #good{
-        max-width: 50% !important;
+        max-width: 70% !important;
         padding-bottom: 16px !important;
     }
     #fifthsection{
-        margin-top: 22rem;
+        margin-top: 0rem;
     }
     .container6{
         padding-left: 10px !important;
@@ -188,7 +192,7 @@
         width: 100% !important;
     }
     .fullname{
-        width: 84% !important;
+        width: 100% !important;
     }
     .emailaddress{
         width: 97% !important;
@@ -200,30 +204,34 @@
         width: 107% !important;
     }
     #yourmessage{
-        width: 80% !important;
+        width: 97% !important;
     }
     #fullinput{
-        width: 100% !important;
+        width: 110% !important;
         margin-bottom: 1rem !important;
     }
     #emailinput{
-        width: 87% !important;
+        width: 100% !important;
     }
     #numberinput{
-        width: 96% !important;
+        width: 109% !important;
     }
-    .interested{
-        max-width: 100% !important; 
+    #interested_in{
+        max-width: 97% !important; 
 
     }
+    #productinput{
+        width: 109% !important;
+    }
      footer {
-        margin-top: 31rem !important;
+        margin-top: 0rem !important;
         /* height: 100%; */
         position: relative;
     }
 
-    #container9 {
-        padding: 2rem !important;
+    .container9 {
+      flex-direction: column !important;
+        padding: 1rem !important;
         gap: 20px  !important;
         flex-direction: column !important;
         display: flex !important;
@@ -260,7 +268,152 @@
 
     }
 }
+    @media (min-width: 768px) and (max-width: 1023px){
+        ul {
+        display: none;
+    }
 
+    li {
+        display: none;
+    }
+
+    .btn {
+        height: 47px !important;
+        width: 7rem !important;
+    }
+
+    nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        margin-bottom: 10rem !important;
+        gap: 2px;
+    }
+
+    #mainlogo {
+        width: 25% !important;
+    }
+    header{
+        padding: 0 !important;
+    }
+    .container{
+        padding: 0 1rem !important;
+        flex-direction: column !important;
+    }
+    #maintextp{
+        padding: 0 1rem !important;
+    }
+    #rightimg{
+        left: 50px !important;
+    }
+    #bottomright{
+        top: 390px !important;
+        left: 515px !important;
+    }
+    #bottomleft{
+        top: 380px !important;
+        right: 515px !important;
+    }
+    #container3mainheading{
+        font-size: 30px !important;
+    }
+    #container3mainpara{
+        font-size: 17px !important;
+        line-height: 20px !important;
+    } 
+    #newbutton{
+        height: 3rem !important;
+        width: 12rem !important;
+        font-size: 14px !important;
+    }
+     .lastimages{
+        margin: 0px !important;
+    }
+    #buisness{
+        max-width: 15% !important;
+    }
+    #clutch{
+        max-width: 20% !important;
+    }
+    #google{
+        max-width: 25% !important;
+    }
+    #good{
+        max-width: 25% !important;
+    }
+    .sectionend{
+        margin: 0 !important;
+        width: 80% !important;
+        flex-direction: column !important;
+    }
+    .inputs{
+        display: block !important;
+        width: 100% !important;
+    }
+    .leftside{
+        width: 85% !important;
+    } 
+    #fullinput{
+        width: 220% !important;
+        margin-bottom: 2rem;
+    }
+    #emailinput{
+        width: 220% !important;
+    } 
+    #numberinput{
+        width: 220% !important;
+    }
+    #interested_in{
+        width: 207% !important;
+    } 
+    #productinput{
+        width: 111% !important;
+    }
+    .rightside{
+        border-top-right-radius: 0px !important;
+        width: 100% !important;
+    }
+    footer{
+        margin-top: 2rem !important;
+    }
+    .container9{
+        /* flex-direction: column !important; */
+        flex-wrap: wrap !important;
+    }
+    #footerlogo{
+        width: 40% !important;
+    }
+    .firstsection{
+        width: 87% !important;
+    }
+    .secondsection{
+        width: 30% !important;
+    }
+    .thirdsection{
+        width: 30% !important;
+    }
+    .fourthsection{
+        width: 30% !important;
+    }
+    .fifthsection{
+        width: 50% !important;
+    }
+    }
+    @media (min-width: 1024px) and (max-width: 1200px) {
+        #rightimg{
+            left: 20px !important;
+        }
+        #bottomleft{
+            top: 325px !important;
+            right: 190px !important;
+        }
+        #bottomright{
+            top: 319px !important;
+            left: 180px !important;
+        }
+        #maintextp{
+            padding: 0 3rem !important;
+        }
+    }
 * {
     margin: 0px;
     padding: 0px;
@@ -344,6 +497,13 @@ a:hover {
 header {
     padding: 10rem 0 3rem 0px;
 }
+.container{
+    padding: 0 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
 
 .maintext {
     width: 100%;
@@ -364,10 +524,10 @@ header {
 }
 
 #maintextp {
-    font-size: 34px;
+    font-size: 22px;
     font-weight: 500;
     font-family: sans-serif;
-    line-height: 38px;
+    line-height: 28px;
     color: rgb(33, 37, 41);
     text-align: center;
     margin-top: 25px;
@@ -380,24 +540,25 @@ header {
 #rightimg {
     position: absolute;
     top: 220px;
-    left: 100px;
+    left: 190px;
 }
 
 #bottomright {
     position: absolute;
     top: 330px;
-    left: 310px;
+    left: 350px;
 }
 
 #bottomleft {
     position: absolute;
     top: 335px;
-    right: 310px;
+    right: 350px;
 }
 
 .getintouchbutton {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-top: 3rem;
     gap: 1rem;
     text-align: center;
@@ -406,20 +567,19 @@ header {
 
 #getintouchbuttontext {
     font-family: sans-serif;
-    font-size: 28px;
+    font-size: 22px;
     font-weight: 600;
     color: rgb(182, 20, 30);
     text-decoration: none;
     text-align: center;
 }
-
-#rightsidearrowimg {
-    width: 2%;
+.getintouchbutton i{
+    color: #B92025;
 }
 
 #firstsection {
     margin-top: 7rem;
-    padding: 6rem 1rem;
+    padding: 6rem 0rem;
     background-color: rgb(245, 245, 245);
 }
 
@@ -443,9 +603,8 @@ header {
 
 .cards {
     display: flex;
-
     justify-content: center;
-    gap: 0 70px;
+    gap: 0 2rem;
     flex-wrap: wrap;
 
 }
@@ -455,9 +614,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -482,9 +641,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -504,9 +663,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -529,9 +688,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -552,9 +711,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -575,9 +734,9 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 15rem;
-    width: 24rem;
-    padding: 4rem;
+    height: 13rem;
+    width: 20rem;
+    padding: 2rem;
     padding-bottom: 6rem;
     border: 1px solid #B92025;
     margin-top: 3rem;
@@ -698,9 +857,8 @@ header {
     color: rgb(33, 37, 41);
 }
 #thirdsection{
-    /* height: 50vh; */
     background-color: #B61417;
-    padding: 4rem 13rem;
+    padding: 4rem 0rem;
     margin-top: 3rem;
     display: grid;
     text-align: center;
@@ -708,23 +866,17 @@ header {
     align-items: center ;
 
 }
-.container3{
-    max-width: 83rem;
-    display: flex;
-    flex-direction: column;
-    padding-left: 2rem;
-    padding-right: 2rem;
-}
+
 #container3mainheading{
     font-family: sans-serif;
-    font-size: 55px;
+    font-size: 48px;
     font-weight: 900;
     color: white;
     margin-bottom: .5rem;
 }
 #container3mainpara{
     font-family: sans-serif;
-    font-size: 29px;
+    font-size: 24px;
     font-weight: 400;
     color: white;
     margin-top: 20px;
@@ -874,7 +1026,7 @@ header {
 }
 
 #fullinput {
-    max-width: 100%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -887,7 +1039,7 @@ header {
 }
 
 #emailinput {
-    max-width: 100%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -916,7 +1068,7 @@ header {
 }
 
 #numberinput {
-    max-width: 100%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -939,7 +1091,7 @@ header {
 
 #interested_in {
     /* margin-left: 50px; */
-    max-width: 100%;
+    width: 100%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -960,7 +1112,7 @@ header {
 }
 
 #yourmessage {
-    width: 90%;
+    width: 100%;
     padding: 12px 29.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1192,40 +1344,36 @@ header {
     color: #e2d5d5;
 }
 footer {
-    margin-top: 2rem;
     background-color: #212529;
     /* height: 100vh; */
 }
-#container9 {
-    height: 90vh;
-    /* background-color: crimson; */
-    /* width: 100%; */
+#footerlogo{
+    width: 100%;
+}
+.container9 {
     padding-right: 2rem;
     padding-left: 2rem;
     margin-right: auto;
     margin-left: auto;
     display: flex;
 }
-#footerlogo{
-    height: 11%;
-    max-width: 60%;
-}
 
-#container9 .firstsection {
+.firstsection {
     margin-top: 40px;
-    width: 30%;
+    width: 25%;
     padding: 0 20px;
 }
 
 #lastp {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     font-family: sans-serif;
     font-weight: 400;
     color: rgb(217, 217, 217);
     margin: 1.5rem 0;
 }
-#container9 .secondsection {
+
+.secondsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1234,17 +1382,17 @@ footer {
 
 #secheadlast {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 
 }
 
 #secheadlast a {
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(217, 217, 217);
 
@@ -1260,13 +1408,13 @@ footer {
 }
 
 #privacypolicy {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
     font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-#container9 .thirdsection {
+.thirdsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1277,18 +1425,18 @@ footer {
     font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 
 }
 
 #location {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
-#container9 .fourthsection {
+.fourthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1303,9 +1451,9 @@ footer {
 }
 
 #fourthp {
-    margin-top: 30px;
+    margin-top: 1.5rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 
 }
@@ -1316,7 +1464,7 @@ footer {
     color: rgb(217, 217, 217);
 }
 
-#container9 .fifthsection {
+.fifthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1332,16 +1480,16 @@ footer {
 
 #email {
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
 #officehead {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
     margin-bottom: 10px;
@@ -1350,7 +1498,7 @@ footer {
 #number {
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
@@ -1363,6 +1511,10 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
+}
+#follow{
+    font-size: 14px;
+    width: 100%;
 }
 
 .lastflex {
@@ -1380,5 +1532,7 @@ footer {
     padding: 1.5rem 0;
     text-align: center;
     font-family: sans-serif;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
+

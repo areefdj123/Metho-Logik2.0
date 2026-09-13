@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px) {
+@media (min-width: 200px) and (max-width: 767px) {
     body {
         overflow-x: hidden;
     }
@@ -8,6 +8,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 0 1rem !important;
         margin: auto;
     }
 
@@ -23,23 +24,22 @@
     }
 
     .btn {
+
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 110px;
+        max-width: 106px !important;
     }
 
-    br {
-        display: none;
-    }
-
-    video {
-        height: 0px;
-        margin: 10px;
-        margin-top: 100px;
+    .mainvideo{
+        width: 100% !important;
         animation: appear linear;
         animation-timeline: view();
         animation-range: 0% 30%;
+    }
+    #mainvideo{
+        margin-top: 1.5rem !important;
+        width: 100% !important;
     }
 
     h1>span {
@@ -54,8 +54,7 @@
         text-align: center;
     }
 
-    .maintext>p {
-
+    .maintext{
         font-size: 15px;
         display: flex;
         align-items: center;
@@ -75,22 +74,19 @@
         animation-timeline: view();
         animation-range: 0% 40%;
     }
-
-    .container2 {
-        flex-direction: column;
-    }
-
     .carousel {
         margin-top: 10px;
-        height: 200px;
         margin: 0px;
+    }
+    .images{
+        width: 100vw !important;
     }
 
     .group {
         bottom: 0px;
-        width: 250vw;
+        width: 250vw !important;
         height: 70px;
-        margin: 0px;
+        margin: 0px !important;
     }
 
     .container3 {
@@ -113,13 +109,30 @@
         width: 100% !important;
 
     }
+    #leftpara{
+        margin: 0px !important;
+    }
+    .heading{
+        margin: 1rem 0px !important;
+    }
+    .strategy{
+        margin: 0px !important;
+        width: 100% !important;
+    }
+    .expert{
+        margin: 1rem 0px !important;
+        width: 100% !important;
+    }
+    .perform{
+        margin: 1rem 0 !important;
+        width: 100% !important;
+    }
 
     #rightpara {
         font-size: 16px !important;
         align-items: center;
-        text-align: center;
         margin-left: 0px !important;
-        margin-bottom: 0px !important;
+        margin-bottom: 1rem !important;
     }
 
     .container4 {
@@ -175,13 +188,6 @@
         height: auto !important;
     }
 
-    .buisnessp1 {
-        padding-left: 20px !important;
-    }
-
-    .buisnessp2 {
-        padding-left: 20px !important;
-    }
 
     .container6 {
         display: flex !important;
@@ -197,9 +203,9 @@
     #rowimage {
         height: auto !important;
         max-width: 100% !important;
-        padding: 4rem 0 !important;
+        padding: 2rem 0 !important;
     }
-
+    
     .container7 {
         flex-direction: column;
         align-items: center;
@@ -259,8 +265,103 @@
         margin-top: 2rem !important;
 
     }
+    
 
 
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1rem !important;
+        margin: auto;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+    }
+
+    .ul {
+        display: none;
+    }
+
+    .btn {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 145px !important;
+    }
+    .maintext{
+        display: flex;
+        justify-content: center !important;
+        align-items: center !important;
+        flex-direction: column;
+    }
+    #mainheading{
+        text-align: center;
+    }
+    #firstpara{
+        text-align: center;
+    }
+    .mainvideo{
+        text-align: center;
+        margin-top: 2rem !important;
+    }
+    #strategicheading{
+        margin-top: 1.5rem !important;
+    }
+    .strategy{
+        margin: 0px !important;
+        width: 100% !important;
+    }
+    .expert{
+        margin: 1rem 0px !important;
+        width: 100% !important;
+    }
+    .perform{
+        margin: 1rem 0 !important;
+        width: 100% !important;
+    }
+    .heading4{
+        margin-bottom: 1.5rem !important;
+    }
+    #buisnessimg{
+        max-width: 55% !important;
+        margin-bottom: 2rem !important;
+    }
+    .rowpara{
+        margin-bottom: 2rem !important;
+    }
+    .container8{
+        padding: 0 1rem !important;
+    }
+    .container9{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .first{
+        width: 87% !important;
+    }
+    .second{
+        width: 30% !important;
+    }
+    .third{
+        width: 30% !important;
+    }
+    .fourth{
+        width: 30% !important;
+    }
+    .fifth{
+        width: 90% !important;
+    }
 
 }
 
@@ -269,15 +370,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+header{
+    padding: 10rem 0 3rem 0;
+}
 
 .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin: 30px; */
-    margin-top: 170px;
-    /* margin-left: 80px; */
-    /* border: 2px solid black; */
+    padding: 0 6rem;
 }
 
 nav {
@@ -354,30 +455,24 @@ img {
 }
 
 .maintext {
-    /* margin: 5rem; */
-    line-height: 48px;
-    /* margin-top: 19px; */
-    /* display: flex; */
+    line-height: 43px;
     flex-wrap: wrap;
-    /* align-items: row; */
     justify-content: center;
-    margin-left: 59px;
-    margin-right: 59px;
-
-
 }
 
-h1 {
-    line-height: 64px;
+#mainheading{
+    line-height: 48px;
     font-family: sans-serif;
     font-size: 48px;
     font-weight: 900;
+    margin-bottom: 1rem;
 }
 
-.firstpara {
+#firstpara {
     line-height: 36px;
-    font-size: 24px;
-    font-family: sans-serif;
+    font-size: 22px;
+    font-family: "Wanted Sans Variable", sans-serif;
+    margin-bottom: 1rem;
 }
 
 .booking {
@@ -402,30 +497,23 @@ h1 {
 
 
 }
+.mainvideo{
+    width: 80%;
+}
 
-video {
-    width: 50vw;
-    height: 200px;
-
-    margin-top: 0px;
+#mainvideo{
+    width: 38vw;   
 
 }
 
-.container2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 35vh
-}
 
-
-h3 {
+#slideanimationheading {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
     font-family: sans-serif;
     font-size: 20px;
     font-weight: 900;
     line-height: 20px;
-    padding: 2rem;
-    /* padding-left: 49px; */
     animation: appear ease;
     animation-timeline: view();
     animation-range: 0% 30%;
@@ -434,7 +522,6 @@ h3 {
 .carousel {
     display: flex;
     width: 70%;
-    /* border: 3px solid black; */
     overflow-x: auto;
     margin: 0px 0;
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
@@ -448,18 +535,20 @@ h3 {
 }
 
 .group {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     gap: 10px;
-    padding: 8px;
+    /* padding: 8px; */
     filter: grayscale(100%);
     animation: slides 45s infinite linear;
 }
 
 .images {
-    width: 35vw;
+    width: 17vw;
 }
 
 @keyframes appear {
@@ -485,23 +574,8 @@ h3 {
         translate: -100%;
     }
 }
-
-.container3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    height: 110vh;
-    background-color: #131421;
-    background-image: url(../assets/Ellipse\ 1.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: right bottom;
-
-}
-
-.leftside {
-    width: 50%;
+#firstsection{
+    padding: 5rem 0;
 }
 
 .heading {
@@ -515,21 +589,14 @@ h3 {
     margin-bottom: 10px;
 }
 
-.leftpara {
+#leftpara {
     font-size: 16px;
     line-height: 20px;
     color: white;
     font-weight: 300;
     font-family: sans-serif;
-    margin: 100px 58px;
-    margin-bottom: 10px;
-
-}
-
-.rightside {
-    width: 50%;
-    /* background-color: crimson; */
-    /* border: 2px solid black; */
+    margin: 0px 58px;
+    margin-bottom: 0px;
 
 }
 
@@ -720,6 +787,9 @@ img {
     margin-left: 40px;
     margin-bottom: 40px;
 }
+#secondsection{
+    padding: 3rem 0;
+}
 
 .container4 {
     padding: 5rem;
@@ -759,7 +829,7 @@ img {
 }
 
 .colums {
-    padding: 2rem;
+    padding: 3rem 5rem;
     display: flex;
     /* flex-direction: column; */
     justify-content: center;
@@ -1010,26 +1080,20 @@ img {
     justify-content: center;
 }
 
-.row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 7rem 4rem;
-}
+
 
 #buisnessimg {
     height: auto;
     max-width: 40%;
 }
 
-.buisnessh {
+.buisnessheading {
     font-family: sans-serif;
     font-size: 32px !important;
     font-weight: 500 !important;
     line-height: 38px;
     color: rgb(33, 37, 41);
-    margin-left: 10px;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
 }
 
 .buisnessp1 {
@@ -1037,8 +1101,7 @@ img {
     font-family: sans-serif;
     font-weight: 400;
     line-height: 20px;
-    padding-left: 42px;
-    margin-bottom: .5rem;
+    margin-bottom: 1rem;
     color: rgb(33, 37, 41);
 
 
@@ -1049,8 +1112,10 @@ img {
     font-family: sans-serif;
     font-weight: 400;
     line-height: 20px;
-    padding-left: 42px;
     color: rgb(33, 37, 41);
+}
+#fourthsection{
+    padding: 4rem 0;
 }
 
 .container6 {
@@ -1086,7 +1151,9 @@ img {
     padding: 0 2rem;
     cursor: pointer;
 }
-
+#fifthsection{
+    padding: 3rem 0;
+}
 .container7 {
     display: flex;
     justify-content: center;
@@ -1109,8 +1176,7 @@ img {
 }
 
 .container8 {
-    height: 60vh;
-    max-width: auto;
+    height: 25rem;
     background-color: rgb(182, 20, 23);
     place-content: center;
     padding: 0 16rem;
@@ -1119,8 +1185,9 @@ img {
 .lasttext {
     font-family: sans-serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
+    color: rgb(33, 37, 41);
 }
 
 footer {
@@ -1129,8 +1196,6 @@ footer {
 }
 
 .container9 {
-    height: 90vh;
-    /* background-color: crimson; */
     width: 100%;
     padding-right: 2rem;
     padding-left: 2rem;
@@ -1139,14 +1204,14 @@ footer {
     display: flex;
 }
 
-.container9 .first {
+.firstsection {
     margin-top: 40px;
     width: 30%;
     padding: 0 20px;
 }
 
 .lastp {
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
     font-family: sans-serif;
     font-weight: 400;
@@ -1163,17 +1228,17 @@ footer {
 
 #secheadlast {
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 
 }
 
 #secheadlast a {
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(217, 217, 217);
 
@@ -1189,7 +1254,7 @@ footer {
 }
 
 #privacypolicy {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
     font-size: 14px;
     color: rgb(217, 217, 217);
@@ -1206,14 +1271,14 @@ footer {
     font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
-    margin-bottom: 20px;
+    margin-bottom: 1rem;
 
 }
 
 #location {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
@@ -1232,9 +1297,9 @@ footer {
 }
 
 #fourthp {
-    margin-top: 30px;
+    margin-top: 1.5rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 
 }
@@ -1261,16 +1326,16 @@ footer {
 
 #email {
     cursor: pointer;
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
 #officehead {
-    margin-top: 30px;
+    margin-top: 1rem;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     color: rgb(248, 249, 250);
     margin-bottom: 10px;
@@ -1279,7 +1344,7 @@ footer {
 #number {
     cursor: pointer;
     font-family: sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }
 
@@ -1292,6 +1357,9 @@ footer {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 
+}
+#follow{
+    font-size: 14px;
 }
 
 .lastflex {
@@ -1309,5 +1377,6 @@ footer {
     padding: 1.5rem 0;
     text-align: center;
     font-family: sans-serif;
+    font-size: 14px;
     color: rgb(217, 217, 217);
 }

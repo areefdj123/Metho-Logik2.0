@@ -1,5 +1,5 @@
-@media (min-with: 200px) and (max-width: 767px) {
-    ul {
+@media (min-width: 200px) and (max-width: 767px) {
+    ul{
         display: none;
     }
 

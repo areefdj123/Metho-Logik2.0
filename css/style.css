@@ -160,10 +160,16 @@
         max-width: 160px;
 
     }
+    .colums{
+        padding: 2rem 1rem !important;
+    }
 
     section.buisness {
         display: flex !important;
         flex-direction: column !important;
+    }
+    .buisnessheading{
+        font-size: 30px !important;
     }
 
     .buisness {
@@ -241,23 +247,23 @@
         max-width: 390% !important;
     }
 
-    .first {
+    .firstsection {
         width: 90% !important;
     }
 
-    .second {
+    .secondsection {
         width: 90% !important;
     }
 
-    .third {
+    .thirdsection {
         width: 90% !important;
     }
 
-    .fourth {
+    .fourthsection {
         width: 90% !important;
     }
 
-    .fifth {
+    .fifthsection {
         width: 90% !important;
     }
 
@@ -347,19 +353,19 @@
         justify-content: center;
         flex-wrap: wrap;
     }
-    .first{
+    .firstsection{
         width: 87% !important;
     }
-    .second{
+    .secondsection{
         width: 30% !important;
     }
-    .third{
+    .thirdsection{
         width: 30% !important;
     }
-    .fourth{
+    .fourthsection{
         width: 30% !important;
     }
-    .fifth{
+    .fifthsection{
         width: 90% !important;
     }
 
@@ -483,9 +489,9 @@ img {
     border-radius: 12px;
     border: 1px solid rgb(182, 20, 23);
     cursor: pointer;
-    animation: appear 3s ease;
+    /* animation: appear 3s ease;
     animation-timeline: view();
-    animation-range: 0% 30%;
+    animation-range: 0% 30%; */
 }
 
 .booking a {
@@ -507,7 +513,7 @@ img {
 }
 
 
-#slideanimationheading {
+.slideanimationheading {
     margin-top: 5rem;
     margin-bottom: 1rem;
     font-family: sans-serif;
@@ -516,7 +522,7 @@ img {
     line-height: 20px;
     animation: appear ease;
     animation-timeline: view();
-    animation-range: 0% 30%;
+    animation-range: 0% 20%;
 }
 
 .carousel {
@@ -527,7 +533,7 @@ img {
     mask-image: linear-gradient(to right, transparent, #000 10% 90%, transparent);
     animation: appear ease;
     animation-timeline: view();
-    animation-range: 0% 20%;
+    animation-range: 0% 30%;
 }
 
 .carousel::-webkit-scrollbar {
@@ -551,19 +557,7 @@ img {
     width: 17vw;
 }
 
-@keyframes appear {
-    from {
-        opacity: 0;
-        transform: translateY(100%);
-    }
 
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-
-}
 
 @keyframes slides {
     from {
@@ -587,6 +581,9 @@ img {
     color: white;
     margin-right: 0px;
     margin-bottom: 10px;
+    animation: appear ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 #leftpara {
@@ -804,7 +801,7 @@ img {
 
 }
 
-#booking {
+.booking {
     background-color: rgb(182, 20, 23);
     border-color: rgb(182, 20, 23);
     height: 45px;
@@ -817,7 +814,7 @@ img {
     animation-range: 0% 30%;
 }
 
-#booking a {
+.booking a {
     color: white;
     font-family: sans-serif;
     font-weight: 600;
@@ -858,6 +855,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt1 {
@@ -878,6 +878,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt2 {
@@ -898,6 +901,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt3 {
@@ -918,6 +924,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt4 {
@@ -938,6 +947,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt5 {
@@ -958,6 +970,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt6 {
@@ -978,6 +993,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt {
@@ -998,6 +1016,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt8 {
@@ -1018,6 +1039,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt9 {
@@ -1038,6 +1062,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt10 {
@@ -1058,6 +1085,9 @@ img {
     height: 230px;
     width: 280px;
     background-color: white;
+     animation: appear 3s ease;
+    animation-timeline: view();
+    animation-range: 0% 30%;
 }
 
 .boxt11 {
@@ -1219,7 +1249,7 @@ footer {
     margin: 1.5rem 0;
 }
 
-.container9 .second {
+.secondsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1259,8 +1289,7 @@ footer {
     font-size: 14px;
     color: rgb(217, 217, 217);
 }
-
-.container9 .third {
+.thirdsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1282,7 +1311,7 @@ footer {
     color: rgb(217, 217, 217);
 }
 
-.container9 .fourth {
+.fourthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;
@@ -1310,7 +1339,7 @@ footer {
     color: rgb(217, 217, 217);
 }
 
-.container9 .fifth {
+.fifthsection {
     margin-top: 40px;
     width: 18%;
     padding: 0 30px;

@@ -175,7 +175,7 @@
     }
 
 }
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 768px) and (max-width: 1200px) {
         ul {
         display: none;
     }
@@ -201,9 +201,21 @@
         flex-direction: column !important;
         padding: 0 5rem !important;
     }
-    .firstsectionmaintext{
-        padding: 5rem 11rem 2rem !important;
+    #mainheading{
+        font-size: 46px !important;
     }
+    #mainpara{
+        font-size: 20px !important;
+    }
+    .firstsectionmaintext{
+        padding: 5rem 5rem 2rem !important;
+        width: 100% !important;
+    }
+    .box1{
+        height: 23rem !important;
+        padding: 1rem !important;
+    }
+
     #ninthsection{
         padding-bottom: 0 !important;
     }
@@ -268,12 +280,26 @@
         width: 50% !important;
     }
     }
-    @media (min-width: 1024px) and (max-width: 1350px) {
+    @media (min-width: 1200px) and (max-width: 1440px) {
         li a{
             font-size: 14px !important;
         }
         #mainlogo{
-            width: 21% !important;
+            width: 15% !important;
+        }
+        #mainheading{
+            font-size: 43px !important;
+        }
+        #mainpara{
+            font-size: 20px !important;
+        }
+        #mainimg{
+            max-width: 100%;
+            height: auto;
+            display: block;
+        }
+        .container{
+            justify-content: space-between !important;
         }
         .btn{
             width: 9rem !important;
@@ -281,7 +307,23 @@
         .lastimages{
             margin-bottom: 0 !important;
         }
+        .firstsectionmaintext{
+            width: 100% !important;
+        }
+        .box1{
+            height: 23rem !important;
+        }
+        .box2{
+            height: 23rem !important;
+        }
+        .box3{
+            height: 23rem !important;
+        }
+        .box4{
+            height: 23rem !important;
+        }
     }
+    
 *{
     margin: 0px;
     padding: 0px;box-sizing: border-box;

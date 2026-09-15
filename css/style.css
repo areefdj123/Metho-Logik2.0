@@ -12,23 +12,26 @@
         margin: auto;
     }
 
-    nav {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        margin: auto;
+    ul {
+        display: none;
     }
 
-    .ul {
+    li {
         display: none;
     }
 
     .btn {
+        height: 47px !important;
+        width: 7rem !important;
+    }
+    #mainlogo{
+        width: 45% !important;
+    }
 
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        max-width: 106px !important;
+    nav {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+        gap: 2px;
     }
 
     .mainvideo{

@@ -375,14 +375,35 @@
 }
     @media (min-width: 1440px) and (max-width: 2560px) {
         .container{
-            justify-content: center !important;
+            justify-content: space-between !important;
             gap: 3rem !important;
+            padding: 0 10rem !important;
+        }
+        #mainlogo{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block;
+        }
+        li a {
+            font-size: 21px !important;
+        }
+        .btn {
+            height: 52px !important;
+            width: 15rem !important;
+            font-size: 21px !important;
         }
         #mainheading{
             font-size: 60px !important;
         }
         #firstpara{
             font-size: 24px !important;
+        }
+        .booking{
+            height: 55px !important;
+            width: 17rem !important;
+        }
+        .booking a{
+            font-size: 21px !important;
         }
         .slideanimationheading{
             font-size: 28px !important;
@@ -394,6 +415,7 @@
         }
         .rightside{
             width: 100% !important;
+            padding-left: 12rem !important;
         }
         #leftpara{
             font-size: 30px !important;
@@ -432,6 +454,34 @@
         }
         #rightsideimg{
             width: 5% !important;
+        }
+        #long{
+            font-size: 28px !important;
+            margin-left: 3.5rem !important;
+        }
+        .efficency h5{
+            font-size: 40px !important;
+
+        }
+        .efficency p{
+            font-size: 28px !important;
+            margin-left: 3.5rem !important;
+        }
+        .technology h5{
+            font-size: 40px !important;
+
+        }
+        .technology p{
+            font-size: 28px !important;
+            padding-left: 1.5rem !important;
+        }
+        .unified h5 {
+            font-size: 40px !important;
+
+        }
+        .unified p{
+            font-size: 28px !important ;
+            padding-left: 1.5rem !important;
         }
     }
 

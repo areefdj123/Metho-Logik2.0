@@ -409,7 +409,138 @@
         width: 50% !important;
     }
 }
-
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        .container{
+            padding: 0 10rem !important;
+        }
+        .heading1{
+            font-size: 56px !important;
+            width: 80% !important;
+        }
+    
+        .para1{
+            font-size: 30px !important;
+        }
+        #img3{
+            top: 987px !important;
+            right: 1620px !important;
+        }
+        #black2{
+            right: 350px !important;
+        }
+        #red2{
+            right: 250px !important;
+        }
+        .development{
+            gap: 13rem !important;
+        }
+        .heading2{
+            font-size: 50px !important;
+            margin-bottom: 8rem !important;
+        }
+        .firstsec{
+            gap: 20px !important;
+        }
+        .firstsec p{
+            font-size: 22px !important;
+        }
+        .secondsec p{
+            font-size: 22px !important;
+        }
+        .secondsec{
+            gap: 20px !important;
+        }
+        .thirdsec p{
+            font-size: 22px !important;
+        }
+        .thirdsec{
+            gap: 20px !important;
+        }
+        .fourthsec p {
+            font-size: 22px !important;
+        }
+        .fourthsec{
+            gap: 20px !important;
+        }
+        .fifthsec p {
+            font-size: 22px !important;
+        }
+        .fifthsec{
+            gap: 20px !important;
+        }
+        .heading3{
+            font-size: 50px !important;
+        }
+        .para3{
+            font-size: 24px !important;
+            line-height: 1.2 !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 26px !important;
+        }
+        .sectionend{
+            width: 75% !important;
+        }
+        #interested_in{
+            width: 80% !important;
+        }
+        #yourmessage{
+            width: 100% !important;
+        }
+         .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
+    }
 * {
     margin: 0px;
     padding: 0px;

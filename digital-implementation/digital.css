@@ -327,6 +327,188 @@
         width: 50% !important;
     }
 }
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        #mainheading{
+            font-size: 55px !important;
+        }
+        #mainpara{
+            font-size: 34px !important;
+        }
+        #maintextimg{
+            width: 11% !important;
+        }
+        .container{
+            padding: 0 10rem !important;
+        }
+        #firstsectionmainimg{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #boxheading{
+            font-size: 50px !important;
+        }
+        #boxpara{
+            font-size: 22px !important;
+            line-height: 1.4 !important;
+        }
+        .box{
+            padding: 1rem 0 16rem 0 !important;
+        }
+        .secondsectionmainimg{
+            width: 40% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #secondsecmainimg{
+            max-width: 100% !important;
+            display: block !important;
+            height: auto !important;
+        }
+        .textside{
+            width: 50% !important;
+        }
+        #secondsectionmainheading{
+            font-size: 60px !important;
+        }
+        #secondsectionmainpara{
+            font-size: 24px !important;
+            line-height: 1.3 !important;
+        }
+        #optiononeheading{
+            font-size: 26px !important;
+        }
+        #optiononepara{
+            font-size: 21px !important;
+        }
+        #optiontwoheading{
+            font-size: 26px !important;
+        }
+        #optiontwopara{
+            font-size: 21px !important;
+        }
+        #optionthreeheading{
+            font-size: 26px !important;
+        }
+        #optionthreepara{
+            font-size: 21px !important;
+        }
+        #leftsidemainhheading{
+            font-size: 50px !important;
+        }
+        #leftsection1redtext{
+            font-size: 25px !important;
+        }
+        #leftsection1para{
+            font-size: 21px !important;
+        }
+        #leftsection2redtext{
+            font-size: 25px !important;
+        }
+        #leftsection2para{
+            font-size: 21px !important;
+        }
+        #leftsection3redtext{
+            font-size: 25px !important;
+        }
+        #leftsection3para{
+            font-size: 21px !important;
+        }
+        #leftsection1img{
+            width: 3% !important;
+        }
+        #leftsection2img{
+            width: 3% !important;
+        }
+        #leftsection3img{
+            width: 3% !important;
+        }
+        #rightsidemainheading{
+            font-size: 55px !important;
+        }
+        #rightsection1redtext{
+            font-size: 25px !important;
+        }
+        #rightsection1para{
+            font-size: 21px !important;
+        }
+        #rightsection2redtext{
+            font-size: 25px !important;
+        }
+        #rightsection2para{
+            font-size: 21px !important;
+        }
+        #rightsection3redtext{
+            font-size: 25px !important;
+        }
+        #rightsection3para{
+            font-size: 21px !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .sectionend{
+            width: 70% !important;
+        }
+        #interested_in{
+            width: 80% !important;
+        }
+        #yourmessage{
+            width: 100% !important;
+        }.container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
+    }
     
 *{
     margin: 0px;
@@ -594,7 +776,7 @@ header{
 }
 #optiononepara{
     font-family: sans-serif;
-    font-size: 14x;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(33, 37, 41);
 }
@@ -613,7 +795,7 @@ header{
 }
 #optiontwopara{
     font-family: sans-serif;
-    font-size: 14x;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(33, 37, 41);
 }
@@ -632,7 +814,7 @@ header{
 }
 #optionthreepara{
     font-family: sans-serif;
-    font-size: 14x;
+    font-size: 14px;
     font-weight: 500;
     color: rgb(33, 37, 41);
 }
@@ -999,7 +1181,7 @@ header{
 
 #interested_in {
     /* margin-left: 50px; */
-    width: 100%;
+    width: 80%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1020,7 +1202,7 @@ header{
 }
 
 #yourmessage {
-    width: 90%;
+    width: 100%;
     padding: 12px 29.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;

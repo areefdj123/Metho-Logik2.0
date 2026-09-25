@@ -332,6 +332,105 @@
         width: 50% !important;
     }
     }
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        #firstsecmainheading{
+            font-size: 50px !important;
+        }
+        #secondsecpara{
+            font-size: 26px !important;
+        }
+        #secondseclineimg{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .container{
+            padding: 0 10rem !important;
+        }
+        .container2text{
+            width: 50% !important;
+        }
+        #container2mainheading{
+            font-size: 53px !important;
+        }
+        #container2maintext{
+            font-size: 22px !important;
+            line-height: 1.2 !important;
+        }
+        .container2mainimg{
+            width: 20% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .container3{
+            padding: 0 10rem !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .sectionend{
+            width: 75% !important;
+        }
+        #interested_in{
+            width: 77% !important;
+        }
+        #yourmessage{
+            width: 100% !important;
+        }
+        .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
+    }
 *{
     margin: 0px;
     padding: 0px;
@@ -534,8 +633,14 @@ header{
     padding-right: 2rem;
 }
 .container2mainimg{
-    text-align: center;
     width: 100%;
+    height: auto;
+    display: block;
+}
+#container2mainimg{
+    max-width: 100%;
+    height: auto;
+    display: block  ;
 }
 #listsection{
     margin-top: 3rem;

@@ -304,6 +304,205 @@
         #footerlogo{
             width: 100% !important;
         }
+
+    }
+    @media (min-width: 1440px) and (max-width: 2560px) {
+        #mainheading{
+            font-size: 60px !important;
+        }
+        #maintextlink{
+            font-size: 30px !important;
+        }
+        .getintouchlink i{
+            font-size: 24px !important;
+        }
+        .firstsectionmainimage{
+            max-width: 100% !important;
+        }
+        #firstsectionmainimg{
+            width: 100% !important;
+        }
+        .container{
+            justify-content: space-between !important;
+            padding: 0 10rem !important;
+        }
+        .firstsectionmaintext{
+            width: 50% !important;
+        }
+        #firstsectionmainheading{
+            font-size: 55px !important;
+        }
+        #firstsectionfirstpara{
+            font-size: 22px !important;
+        }
+        #firstsectionsecondpara{
+            font-size: 22px !important;
+        }
+        #firstsectionthirdpara{
+            font-size: 22px !important;
+        }
+        #firstsectionfourthpara{
+            font-size: 22px !important;
+        }
+        #optionbox1para{
+            font-size: 22px !important;
+        }
+        #optionbox2para{
+            font-size: 22px !important;
+        }
+        #optionbox3para{
+            font-size: 22px !important;
+        }
+        #optionbox4para{
+            font-size: 22px !important;
+        }
+        #secondsectionmaintextheading{
+            font-size: 46px !important;
+        }
+        #boodstrappara{
+            font-size: 24px !important;
+        }
+        #erpnextpara{
+            font-size: 24px !important;
+        }
+        #frontendpara{
+            font-size: 24px !important;
+        }
+        #dedicatedresourcepara{
+            font-size: 24px !important;
+        }
+        #parttimepara{
+            font-size: 24px !important;
+        }
+        #teamextensionpoara{
+            font-size: 24px !important;
+        }
+        .boodstrap i{
+            font-size: 22px !important;
+        }
+        .erpnext i{
+            font-size: 22px !important;
+        }
+        .frontend i {
+            font-size: 22px !important;
+        }
+        
+        .dedicatedresource i {
+            font-size: 22px !important;
+        }
+        .parttime i{
+            font-size: 22px !important;
+        }
+        .teamextension i {
+            font-size: 22px !important;
+        }
+        #thirdsectionmainheading{
+            font-size: 50px !important;
+        }
+        #thirdsectionmainpara{
+            font-size: 24px !important;
+        }
+        #fourthsectionmainheading{
+            font-size: 55px !important;
+        }
+        #box1para{
+            font-size: 22px !important;
+        }
+        #box2para{
+            font-size: 22px !important;
+        }
+        #box3para{
+            font-size: 22px !important;
+        }
+        #box4para{
+            font-size: 22px !important;
+        }
+        #box5para{
+            font-size: 22px !important;
+        }
+        #box6para{
+            font-size: 22px !important;
+        }
+        #fifthsectionmainheading{
+            font-size: 55px !important;
+        }
+        #saasproductpara{
+            font-size: 24px !important;
+        }
+        #transportationpara{
+            font-size: 24px !important;
+        }
+        #retailpara{
+            font-size: 24px !important;
+        }
+        #healthcarepara{
+            font-size: 24px !important;
+        }
+        #educationpara{
+            font-size: 24px !important;
+        }
+        #otherspara{
+            font-size: 24px !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .sectionend{
+            width: 70% !important;
+        }
+        .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
     }
     
     
@@ -513,11 +712,13 @@ header{
     margin-bottom: 1rem;
 }
 .firstsectionmainimage{
-    width: 100%;
+    /* width: 100%; */
     
 }
 #firstsectionmainimg{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block ;
 }
 #secondsection{
     padding: 3rem 0 3rem;

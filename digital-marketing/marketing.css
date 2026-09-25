@@ -333,6 +333,121 @@
             margin-bottom: 0 !important;
         }
     }
+    @media (min-width: 1440px) and (max-width: 2560px){
+        header{
+            padding: 5rem  0 5rem !important;
+        }
+        .container{
+            padding: 0 10rem !important;
+        }
+        .container1{
+            padding: 0 10rem !important;
+        }
+        #mainimage{
+            width: 80% !important;
+        }
+        #maintextheading{
+            font-size: 65px !important;
+            line-height: 1.4 !important;
+        }
+        #lineimage{
+            width: 100% !important;
+        }
+        #firstsectionmaintext{
+            font-size: 28px !important;
+            width: 400% !important;
+            
+        }
+        .heading2{
+            font-size: 50px !important;
+        }
+        #secondsectionmainimg{
+            width: 32% !important;
+        }
+        .firstsec p{
+            font-size: 22px !important;
+        }
+        .secondsec p{
+            font-size: 22px !important;
+        }
+        .thirdsec p {
+             font-size: 22px !important;
+        }
+        .fourthsec p {
+            font-size: 22px !important;
+        }
+        #thirdsectionmainheading{
+            font-size: 55px !important;
+        }
+        #thirdsectionmainpara{
+            font-size: 22px !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .sectionend{
+            width: 70% !important;
+        }
+        #interested_in{
+            width: 80% !important;
+        }
+        #yourmessage{
+            width: 100% !important;
+        }
+        .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
+    }
 *{
     margin: 0px;
     padding: 0px;
@@ -664,7 +779,9 @@ header{
     width: 25%;
 }
 #fourthimage{
-    width: 22%;
+    max-width: 20%;
+    height: auto;
+    display: block;
 }
 #ninthsection{
     text-align: center;
@@ -859,7 +976,7 @@ header{
 
 #interested_in {
     /* margin-left: 50px; */
-    width: 100%;
+    width: 80%;
     padding: 12px 9.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -880,7 +997,7 @@ header{
 }
 
 #yourmessage {
-    width: 90%;
+    width: 100%;
     padding: 12px 29.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;

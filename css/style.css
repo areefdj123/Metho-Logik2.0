@@ -425,6 +425,9 @@
         .heading{
             font-size: 60px !important;
         }
+        .strategy{
+            margin-bottom: 2rem !important;
+        }
         .strategy h5 {
             font-size: 28px !important;
         }
@@ -432,6 +435,9 @@
             width: 5% !important;
             height: auto !important;
             display: block !important;
+        }
+        .expert{
+            margin-bottom: 2rem !important;
         }
         .expert h5{
             font-size: 28px !important;
@@ -448,12 +454,15 @@
         #rightpara{
             font-size: 30px !important;
             line-height: 1.2 !important;
+            margin-left: 0px !important;
         }
         .righttext h5{
             font-size: 40px !important;
         }
         #rightsideimg{
-            width: 5% !important;
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
         }
         #long{
             font-size: 28px !important;
@@ -482,6 +491,195 @@
         .unified p{
             font-size: 28px !important ;
             padding-left: 1.5rem !important;
+        }
+        .heading4{
+            font-size: 40px !important;
+            line-height: 1.2 !important;
+        }
+        .colums{
+            padding: 5rem 10rem !important;
+        }
+        .box1{
+            height: 270px !important;
+            width: 350px  !important;
+        }
+        .boxh{
+            font-size: 27px !important;
+        }
+        .boxt1{
+            font-size: 22px !important;
+        }
+        .box2{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt2{
+            font-size: 22px !important;
+        }
+        .box3{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt3{
+            font-size: 22px !important;
+        }
+        .box4{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt4{
+            font-size: 22px !important;
+        }
+        .box5{
+            height: 270px !important; 
+            width: 350px !important;
+        }
+        .boxt5{
+            font-size: 22px !important;
+        }
+        .box6{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt6{
+            font-size: 22px !important;
+        }
+        .box7{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt7{
+            font-size: 22px !important;
+        }
+        .box8{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt8{
+            font-size: 22px !important;
+        } 
+        .box9{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt9{
+            font-size: 22px !important;
+        }
+        .box10{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt10{
+            font-size: 22px !important;
+        }
+        .box11{
+            height: 270px !important;
+            width: 350px !important;
+        }
+        .boxt11{
+            font-size: 22px !important;
+        }
+        #buisnessimg{
+            max-width: 76% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .buisnesstext{
+            width: 50% !important;
+        }
+        .buisnessheading{
+            font-size: 48px !important;
+            line-height: 1.2 !important;
+        }
+        .buisnessp1{
+            font-size: 28px !important;
+            line-height: 1.2 !important;
+        }
+        .buisnessp2{
+            font-size: 28px !important;
+            line-height: 1.2 !important;
+        }
+        .buisnessheading br {
+            display: none !important;
+        }
+        .buisnessp1 br {
+            display: none !important;
+        }
+        .buisnessp2 br {
+            display: none !important;
+        }
+        .rowheading{
+            font-size: 46px !important;
+        }
+        .rowpara{
+            font-size: 20px !important;
+        }
+        #rowimg{
+            display: flex;
+            flex-direction: row !important;
+        }
+        #rowimage{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #earth{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #earthheading{
+            font-size:55px !important;
+            line-height: 1.2 !important;
+        }
+        .lasttext{
+            font-size: 32px !important;
+            padding: 0 3rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 23px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
         }
     }
 
@@ -1287,12 +1485,13 @@ img {
 
 #buisnessimg {
     height: auto;
-    max-width: 40%;
+    max-width: 100%;
+    display: block;
 }
 
 .buisnessheading {
     font-family: sans-serif;
-    font-size: 32px !important;
+    font-size: 32px;
     font-weight: 500 !important;
     line-height: 38px;
     color: rgb(33, 37, 41);

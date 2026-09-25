@@ -320,7 +320,7 @@
         width: 50% !important;
     }
 }
- @media (min-width: 1024px) and (max-width: 1350px) {
+ @media (min-width: 1024px) and (max-width: 1439px) {
         li a{
             font-size: 14px !important;
         }
@@ -337,6 +337,142 @@
             width: 100% !important;
         } #listsectionimg{
             max-width: 40% !important;
+        }
+    }
+    @media (min-width: 1440px) and (max-width: 2560px){
+        .container{
+            padding: 0 10rem !important;
+        }
+        #mainimg{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #mainheading{
+            font-size: 56px !important;
+        }
+        .container1{
+            padding: 0 10rem !important;
+        }
+        #secondsectionmainimg{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #secondsectionmainheading{
+            font-size: 50px !important;
+        }
+        #secondsectionfirstpara{
+            font-size: 20px !important;
+        }
+        #secondsectionsecondpara{
+            font-size: 20px !important;
+        }
+        #secondsectionthirdpara{
+            font-size: 20px !important;
+        }
+        #thirdsectionmainimg{
+            max-width: 100% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        #thirdsectionmainheading{
+            font-size: 36px !important;
+            margin-bottom: 1rem !important;
+        }
+        #thirdsectionmainpara{
+            font-size: 20px !important;
+        }
+        .container2{
+            padding: 0 10rem !important;
+        }
+        #fourthsectionmainimg{
+            max-width: 100% !important;
+            height: auto;
+            display: block !important;
+        }
+        #fourthsectionmainheading{
+            font-size: 50px !important;
+        }
+        #fourthsectionmainpara{
+            font-size: 20px !important;
+        }
+        #option1para{
+            font-size: 20px !important;
+        }
+        .option1 i {
+            font-size: 20px !important;
+        }
+        #option2para{
+            font-size: 20px !important;
+        }
+        .option2 i{
+            font-size: 20px !important;
+        }
+        #option3para{
+            font-size: 20px !important;
+        }
+        .option3 i {
+            font-size: 20px !important;
+        }
+        #option4para{
+            font-size: 20px !important;
+        }
+        .option4 i {
+        font-size: 20px !important;
+        }
+        .sectionend{
+            width: 90% !important;
+        }
+        .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
         }
     }
 *{
@@ -374,7 +510,7 @@ li a {
     align-items: center;
     padding-top: 10px;
     justify-content: center;
-    font-size: 16px;
+    font-size: 17px !important;
 }
 
 a:hover {
@@ -490,6 +626,8 @@ header{
 }
 #mainimg{
     max-width: 100%;
+    height: auto;
+    display: block;
 }
 #secondsection{
     padding: 3rem 0;
@@ -502,6 +640,8 @@ header{
 }
 #secondsectionmainimg{
     max-width: 40%;
+    height: auto;
+    display: block;
 }
 .secondsectionmaintext{
     width: 48%;
@@ -558,7 +698,7 @@ header{
     color: rgb(33, 37, 41);
 }
 #thirdsectionmainimg{
-    max-width: 100%;
+    max-width: 35%;
 }
 #fourthsection{
     padding: 3rem 0;
@@ -646,7 +786,7 @@ header{
 #fifthsectionmainheading1{
     font-family: "Wanted Sans Variable", sans-serif;
     font-size: 30px;
-    font-family: 600;
+    font-weight: 600;
     color: rgb(33, 37, 41);
     margin-bottom: 1rem;
     text-align: center;

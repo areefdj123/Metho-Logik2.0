@@ -306,6 +306,126 @@
             padding: 0 5rem !important;
         }
     }
+    @media (min-width: 1440px) and (max-width: 2560px){
+        .maintext{
+            display: flex !important;
+            flex-direction: column !important;
+            justify-content: center !important;
+        }
+        #mainheading{
+            font-size: 60px !important;
+        }
+        #mainpara{
+            font-size: 26px !important;
+        }
+        #firstsectionmainheading{
+            font-size: 60px !important;
+        }
+        #option1heading{
+            font-size: 36px !important;
+        }
+        #option1para{
+            font-size: 20px !important;
+        }
+        #option2heading{
+            font-size: 36px !important;
+        }
+        #option2para{
+            font-size: 20px !important;
+        }
+        #option3heading{
+            font-size: 36px !important;
+        }
+        #option3para{
+            font-size: 20px !important;
+        }
+        #option4heading{
+            font-size: 36px !important;
+        }
+        #option4para{
+            font-size: 20px !important;
+        }
+        #thirdsectionmainheading{
+            font-size: 50px !important;
+        }
+        #section1para{
+            font-size: 22px !important;
+        }
+        #section2para{
+            font-size: 22px !important;
+        }
+        #section3para{
+            font-size: 22px !important;
+        }
+        .section1 i{
+            font-size: 22px !important;
+        }
+        .section2 i{
+            font-size: 22px !important;
+        }
+        .section3 i {
+            font-size: 22px !important;
+        }
+        .heading4{
+            font-size: 43px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .sectionend{
+            width: 75% !important;
+        }
+         .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
+    }
 * {
     margin: 0px;
     padding: 0px;

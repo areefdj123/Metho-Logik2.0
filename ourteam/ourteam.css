@@ -273,7 +273,7 @@
         width: 50% !important;
     }
     }
-    @media (min-width:1024px) and (max-width:1350px){
+    @media (min-width: 1024px) and (max-width: 1439px){
         li a{
             font-size: 14px !important;
         }
@@ -304,6 +304,11 @@
         }
         #footerlogo{
             width: 100% !important;
+        }
+    }
+    @media (min-width: 1440px) and (max-width: 2560px){
+        #mainheadgin{
+            font-size: 50px !important;
         }
     }
 *{
@@ -524,6 +529,9 @@ header{
     font-weight: 900;
     font-size: 23px;
     color: rgb(33, 37, 41);
+}
+.option5{
+    width: 28%;
 }
 #name{
     font-family: sans-serif;

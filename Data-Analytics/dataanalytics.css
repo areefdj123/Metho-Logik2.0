@@ -130,12 +130,12 @@
     }
     .leftside{
         height: 100% !important;
-        width: 73% !important;
+        width: 100% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
         border-top: hidden;
-        width: 73% !important;
+        width: 100% !important;
         border-top-right-radius: 0px !important;
     }
     .fullname{
@@ -148,11 +148,11 @@
     .number{
         width: 89% !important;
     }
-    #interested{
-        width: 107% !important;
+    #interested_in{
+        width: 180% !important;
     }
     #yourmessage{
-        width: 80% !important;
+        width: 100% !important;
     }
     #fullinput{
         width: 100% !important;

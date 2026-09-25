@@ -156,12 +156,12 @@
     }
     .leftside{
         height: 100% !important;
-        width: 73% !important;
+        width: 100% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
         border-top-right-radius: 0px !important;
-        width: 73% !important;
+        width: 100% !important;
     }
     .fullname{
         width: 84% !important;
@@ -174,10 +174,10 @@
         width: 89% !important;
     }
     #interested_in{
-        width: 227% !important;
+        width: 180% !important;
     }
     #yourmessage{
-        width: 80% !important;
+        width: 100% !important;
     }
     #fullinput{
         width: 100% !important;

@@ -82,6 +82,21 @@
         max-width: 50% !important;
         padding-bottom: 16px !important;
     }
+    .boxes{
+        gap: 3rem !important;
+    }
+    .box1{
+        height: 24rem !important;
+    }
+    .box2{
+        height: 24rem !important;
+    }
+    .box3{
+        height: 24rem !important;
+    }
+    .box4{
+        height: 24rem !important;
+    }
     .container7{
         margin-top: 25rem !important;
         padding-left: 10px !important;
@@ -92,12 +107,12 @@
     }
     .leftside{
         height: 100% !important;
-        width: 73% !important;
+        width: 100% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
         border-top: hidden;
-        width: 73% !important;
+        width: 100% !important;
     }
     .fullname{
         width: 84% !important;
@@ -109,11 +124,11 @@
     .number{
         width: 89% !important;
     }
-    #interested{
-        width: 107% !important;
+    #interested_in{
+        width: 180% !important;
     }
     #yourmessage{
-        width: 80% !important;
+        width: 100% !important;
     }
     #fullinput{
         width: 100% !important;
@@ -175,7 +190,7 @@
     }
 
 }
-    @media (min-width: 768px) and (max-width: 1200px) {
+    @media (min-width: 768px) and (max-width: 1024px) {
         ul {
         display: none;
     }
@@ -238,8 +253,8 @@
         width: 100% !important;
     }
     .leftside{
-        width: 85% !important;
-    } 
+        width: 100% !important;
+    }
     #fullinput{
         width: 160% !important;
         margin-bottom: 2rem;
@@ -258,11 +273,20 @@
     }
     .rightside{
         border-top-right-radius: 0px !important;
-        width: 85% !important;
+        width: 100% !important;
     }
     .container9{
         /* flex-direction: column !important; */
         flex-wrap: wrap !important;
+    }
+    .box2{
+        height: 23rem !important;
+    }
+    .box3{
+        height: 23rem !important;
+    }
+    .box4{
+        height: 23rem !important;
     }
     .firstsection{
         width: 87% !important;
@@ -273,6 +297,7 @@
     .thirdsection{
         width: 30% !important;
     }
+
     .fourthsection{
         width: 30% !important;
     }

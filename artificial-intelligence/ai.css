@@ -125,12 +125,12 @@
     }
     .leftside{
         height: 100% !important;
-        width: 73% !important;
+        width: 100% !important;
         border-top-left-radius: 20px !important;
     }
     .rightside{
         border-top: hidden;
-        width: 73% !important;
+        width: 100% !important;
     }
     .fullname{
         width: 84% !important;
@@ -145,7 +145,7 @@
         width: 107% !important;
     }
     #yourmessage{
-        width: 80% !important;
+        width: 100% !important;
     }
     #fullinput{
         width: 100% !important;
@@ -158,7 +158,7 @@
         width: 96% !important;
     }
     #interested_in{
-        width: 110% !important; 
+        width: 87% !important; 
 
     }
     #productinput{

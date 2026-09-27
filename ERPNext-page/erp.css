@@ -6,17 +6,23 @@
     li {
         display: none;
     }
-
+    .hamburger{
+        display: block !important;
+        font-size: 2rem !important;
+    }
     .btn {
         height: 47px !important;
         width: 7rem !important;
+        display: none !important;
     }
 
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
-        margin-bottom: 10rem !important;
-        gap: 2px;
+        margin-top: 0px !important;
+        padding: 1rem !important;
+        margin-bottom: 8rem !important;
+        gap: 5rem !important;
     }
 
     #mainlogo {
@@ -280,13 +286,20 @@
     .btn {
         height: 47px !important;
         width: 7rem !important;
+        display: none;
+    }
+    .hamburger{
+        display: block !important;
+        font-size: 2rem !important;
     }
 
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
+        margin-top: 0px !important;
+        padding: 1rem !important;
         margin-bottom: 10rem !important;
-        gap: 2px;
+        gap: 32rem !important;
     }
 
     #mainlogo {
@@ -532,6 +545,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.hamburger{
+    display: none;
 }
 
 nav {

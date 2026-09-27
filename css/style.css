@@ -11,7 +11,10 @@
         padding: 0 1rem !important;
         margin: auto;
     }
-
+    .hamburger{
+        display: block !important;
+        font-size: 2rem !important;
+    }
     ul {
         display: none;
     }
@@ -23,15 +26,20 @@
     .btn {
         height: 47px !important;
         width: 7rem !important;
+        display: none;
     }
     #mainlogo{
-        width: 45% !important;
+        width: 51% !important;
     }
 
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
-        gap: 2px;
+        gap: 7rem !important;
+        margin-top: 0px !important;
+        padding: 1rem !important;
+        justify-content: space-between !important;
+        align-items: center !important;
     }
 
     .mainvideo{
@@ -688,6 +696,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+}
+.hamburger{
+    display: none;
 }
 nav {
     display: flex;

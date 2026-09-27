@@ -10,15 +10,22 @@
     .btn {
         height: 47px !important;
         width: 7rem !important;
+        display: none !important;
+    }
+    .hamburger{
+        font-size: 1.5rem !important;
+        display: block !important;
     }
     #mainlogo{
-        width: 45% !important;
+        max-width: 50% !important;
     }
 
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
-        gap: 2px;
+        margin-top: 0px !important;
+        padding: 1rem !important;
+        gap: 8rem !important;
     }
     .container{
         padding: 0 1rem !important;
@@ -181,15 +188,22 @@
     .btn {
         height: 47px !important;
         width: 7rem !important;
+        display: none !important;
+    }
+    .hamburger{
+        font-size: 2rem !important;
+        display: block !important;
     }
     #mainlogo{
-        width: 15% !important;
+        max-width: 25% !important;
     }
 
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
-        gap: 2px;
+        margin-top: 0px !important;
+        padding: 1rem !important;
+        gap: 32rem !important;
     }
     .container{
         padding: 0 5rem !important;
@@ -316,6 +330,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+.hamburger{
+    display: none;
+}
 nav {
     display: flex;
     justify-content: space-around;
@@ -323,11 +340,10 @@ nav {
     position: relative;
 }
 
-nav>img-logo {
+#mainlogo {
     height: auto;
-    max-width: auto;
-    margin: 0px;
-    margin-bottom: 0px;
+    max-width: 16%;
+    display: block;
 }
 
 nav ul {

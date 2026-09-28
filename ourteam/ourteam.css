@@ -324,6 +324,73 @@
         #mainheadgin{
             font-size: 50px !important;
         }
+        .container{
+            justify-content: space-between !important;
+
+        }
+        .options2{
+            align-items: flex-end;
+            width: 45% !important;
+        }
+        .sectionend{
+            width: 70% !important;
+        }
+        .heading4{
+            font-size: 46px !important;
+        }
+        .para4{
+            font-size: 22px !important;
+        }
+        .container9{
+            display: flex !important;
+            justify-content: center !important;
+            padding: 0 6rem !important;
+        }
+        #footerlogo{
+            width: 50% !important;
+            height: auto !important;
+            display: block !important;
+        }
+        .lastp{
+            font-size: 20px !important;
+            line-height: 1.2 !important;
+        }
+        #secheadlast{
+            font-size: 19px !important;
+        }
+        #secheadlast a{
+            font-size: 17px !important;
+        }
+        #thirdhead{
+            font-size: 19px !important;
+        }
+        #location{
+            font-size: 17px !important;
+        }
+        #fourthhead{
+            font-size: 19px !important;
+        }
+        #fourthhead a{
+            font-size: 17px !important;
+        }
+        #fifthhead{
+            font-size: 19px !important;
+        }
+        #email{
+            font-size: 17px !important;
+        }
+        #officehead{
+            font-size: 17px !important;
+        }
+        #number{
+            font-size: 17px !important;
+        }
+        #follow{
+            font-size: 17px !important;
+        }
+        #end {
+            font-size: 16px !important;
+        }
     }
 *{
     margin: 0px;
@@ -491,6 +558,22 @@ nav ul li:hover .mega-menu {
     visibility: visible;
     pointer-events: auto;
 }
+.sidebar{
+    position: fixed;
+    display:  none;
+    justify-content: flex-start;
+     gap: 2rem;
+    width: 100%;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.502);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
 .sidelink {
     flex-direction: column;
     align-items: flex-start;

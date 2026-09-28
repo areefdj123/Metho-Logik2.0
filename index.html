@@ -42,10 +42,10 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Our Offering</a>
+                <li class="offering"><a href="#">Our Offering</a>
                     <div class="mega-menu">
                         <div class="megamenuheading">
-                            <h2 id="megamenuheading">Our Offering</h2>
+                            <h2 id="megamenuheading" onclick="offeringdropdown()">Our Offering</h2>
                             <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
                                 needs.</p>
                         </div>
@@ -128,7 +128,7 @@
                     </div>
                 </div>
                 </li>
-                <li><a href="#">Our Offering</a>
+                <li class="ouroffering"><a href="#" onclick="offeringdropdown()">Our Offering</a>
                     <div class="mega-menu">
                     <div class="megamenuheading">
                         <h2 id="megamenuheading">Our Offering</h2>
@@ -593,14 +593,14 @@
     </script>
     <script>
         function showsidebar(){
-               const sidebar = document.querySelector('.sidebar')
-            sidebar.style.display = 'flex'
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'block'
+
         }
         function hidesidebar(){
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
         }
-        
     </script>
 </body>
 

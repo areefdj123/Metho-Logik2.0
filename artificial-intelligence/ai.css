@@ -15,6 +15,18 @@
         width: 7rem !important;
         display: none !important;
     }
+    .mega-menu{
+        top: 30% !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+        display: block !important;
+    }
+    #megamenuheading{
+        display: none !important;
+    }
+    #megamenupara{
+        display: none !important;
+    }
 
     nav {
         padding-left: 0px !important;
@@ -625,6 +637,7 @@ nav ul li:hover .mega-menu {
     backdrop-filter: blur(10px);
     flex-direction: column;
     padding-left: 1rem;
+    overflow-y: auto;
 }
 
 .sidelink {

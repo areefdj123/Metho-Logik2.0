@@ -16,6 +16,18 @@
         font-size: 1.5rem !important;
         display: block !important;
     }
+    .mega-menu{
+        top: 30% !important;
+        flex-direction: column !important;
+        padding: 1rem !important;
+        display: block !important;
+    }
+    #megamenuheading{
+        display: none !important;
+    }
+    #megamenupara{
+        display: none !important;
+    }
     #mainlogo{
         max-width: 50% !important;
     }
@@ -669,6 +681,7 @@ nav ul li:hover .mega-menu {
     backdrop-filter: blur(10px);
     flex-direction: column;
     padding-left: 1rem;
+    overflow-y: auto;
 }
 
 .sidelink {

@@ -13,84 +13,177 @@
 <body>
     <div class="menubar">
         <nav>
+            <div class="sidebar">
+                <div class="hidesidebaricon" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(138, 141, 145);"></i></div>
+                <ul class="sidelink">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">About Us</a>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">About Us</h2>
+                            <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/aboutus/about.html">About Us</a></h3>
+                            <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
+                            <h3><a href="/company-culture/company.html">Company Culture</a></h3>
+                            <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.
+                            </p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
+                            <p id="megamenupara">A passionate group of professionals dedicated to transforming visions
+                                into reality.</p>
+                            <h3><a href="/careers/careers.html">Careers</a></h3>
+                            <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless
+                                opportunities.</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Our Offering</a>
+                    <div class="mega-menu">
+                        <div class="megamenuheading">
+                            <h2 id="megamenuheading">Our Offering</h2>
+                            <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
+                                needs.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/software-development-page/index.html">Software Development</a></h3>
+                            <p id="megamenupara">Custom, scalable software.</p>
+                            <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
+                            <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
+                            <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
+                            <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
+                            <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
+                            <p id="megamenupara">Smart, data-driven AI.</p>
+                            <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
+                            <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
+                            <h3><a href="/cloud/cloud.html">Cloud</a></h3>
+                            <p id="megamenupara">Secure, scalable cloud services.</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a>
+                            </h3>
+                            <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
+                            <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
+                            <p id="megamenupara">Effective digital growth strategies..</p>
+                            <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
+                            <p id="megamenupara">Beautiful, user-friendly designs.</p>
+                            <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
+                            <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
+                            <h3><a href="/porject-management/project.html">Project Management</a></h3>
+                            <p id="megamenupara">Empowering Success</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Brands</a>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">Our Brand</h2>
+                            <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="#">Cabil</a></h3>
+                            <p id="megamenupara">Complete Business Management Platform</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="#">Imdady</a></h3>
+                            <p id="megamenupara">Restaurant & POS Management Solution</p>
+                        </div>
+                        <div class="extra-column">
+                            <h3><a href="#">Analytics Nest</a></h3>
+                            <p id="megamenupara">Data & AI Solutions Division</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/blogs/blogs.html">Blog</a></li>
+                <li><a href="/contactus/contact.html">Contact Us</a></li>
+            </ul>
+            <button class="sidebarbtn"><a href="https://calendly.com/areefdj123/30min">Get In Touch</a></button>
+        </div>
             <img id="mainlogo" src="assets/logo.png" alt="">
-            <div class="hamburger"><i class="fa-solid fa-bars" style="color: rgb(138, 141, 145);"></i>
-</div>
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(138, 141, 145);"></i>
+            </div>
             <ul class="navlink">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="#">About Us</a>
-                <div class="mega-menu">
-                    <div class="mainheading">
-                        <h2 id="megamenuheading">About Us</h2>
-                        <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">About Us</h2>
+                            <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/aboutus/about.html">About Us</a></h3>
+                            <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
+                            <h3><a href="/company-culture/company.html">Company Culture</a></h3>
+                            <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.
+                            </p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
+                            <p id="megamenupara">A passionate group of professionals dedicated to transforming visions
+                                into reality.</p>
+                            <h3><a href="/careers/careers.html">Careers</a></h3>
+                            <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless
+                                opportunities.</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="/aboutus/about.html">About Us</a></h3>
-                        <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
-                        <h3><a href="/company-culture/company.html">Company Culture</a></h3>
-                        <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
-                        <p id="megamenupara">A passionate group of professionals dedicated to transforming visions into reality.</p>
-                        <h3><a href="/careers/careers.html">Careers</a></h3>
-                        <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless opportunities.</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="#">Our Offering</a>
-                <div class="mega-menu">
-                    <div class="megamenuheading">
-                        <h2 id="megamenuheading">Our Offering</h2>
-                        <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their needs.</p>
+                    <div class="mega-menu">
+                        <div class="megamenuheading">
+                            <h2 id="megamenuheading">Our Offering</h2>
+                            <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
+                                needs.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/software-development-page/index.html">Software Development</a></h3>
+                            <p id="megamenupara">Custom, scalable software.</p>
+                            <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
+                            <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
+                            <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
+                            <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
+                            <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
+                            <p id="megamenupara">Smart, data-driven AI.</p>
+                            <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
+                            <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
+                            <h3><a href="/cloud/cloud.html">Cloud</a></h3>
+                            <p id="megamenupara">Secure, scalable cloud services.</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a>
+                            </h3>
+                            <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
+                            <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
+                            <p id="megamenupara">Effective digital growth strategies..</p>
+                            <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
+                            <p id="megamenupara">Beautiful, user-friendly designs.</p>
+                            <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
+                            <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
+                            <h3><a href="/porject-management/project.html">Project Management</a></h3>
+                            <p id="megamenupara">Empowering Success</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="/software-development-page/index.html">Software Development</a></h3>
-                        <p id="megamenupara">Custom, scalable software.</p>
-                        <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
-                        <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
-                        <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
-                        <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
-                        <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
-                        <p id="megamenupara">Smart, data-driven AI.</p>
-                        <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
-                        <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
-                        <h3><a href="/cloud/cloud.html">Cloud</a></h3>
-                        <p id="megamenupara">Secure, scalable cloud services.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a></h3>
-                        <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
-                        <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
-                        <p id="megamenupara">Effective digital growth strategies..</p>
-                        <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
-                        <p id="megamenupara">Beautiful, user-friendly designs.</p>
-                        <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
-                        <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
-                        <h3><a href="/porject-management/project.html">Project Management</a></h3>
-                        <p id="megamenupara">Empowering Success</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="#">Brands</a>
-                <div class="mega-menu">
-                    <div class="mainheading">
-                        <h2 id="megamenuheading">Our Brand</h2>
-                        <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">Our Brand</h2>
+                            <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="#">Cabil</a></h3>
+                            <p id="megamenupara">Complete Business Management Platform</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="#">Imdady</a></h3>
+                            <p id="megamenupara">Restaurant & POS Management Solution</p>
+                        </div>
+                        <div class="extra-column">
+                            <h3><a href="#">Analytics Nest</a></h3>
+                            <p id="megamenupara">Data & AI Solutions Division</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="#">Cabil</a></h3>
-                        <p id="megamenupara">Complete Business Management Platform</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="#">Imdady</a></h3>
-                        <p id="megamenupara">Restaurant & POS Management Solution</p>
-                    </div>
-                    <div class="extra-column">
-                        <h3><a href="#">Analytics Nest</a></h3>
-                        <p id="megamenupara">Data & AI Solutions Division</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="/blogs/blogs.html">Blog</a></li>
                 <li><a href="/contactus/contact.html">Contact Us</a></li>
@@ -102,7 +195,8 @@
         <div class="maintext">
             <h1 id="mainheading" data-aos="fade-up" data-aos-duration="800">Excellence in Program Management and <span
                     style="color: rgb(182, 20, 23);">Strategic</span> Oversight</h1>
-            <p id="mainpara" data-aos="fade-up" data-aos-duration="800">Providing seamless execution with an emphasis on precision, efficiency, and results.</p>
+            <p id="mainpara" data-aos="fade-up" data-aos-duration="800">Providing seamless execution with an emphasis on
+                precision, efficiency, and results.</p>
             <img id="maintextimg" data-aos="fade-up" data-aos-duration="800" src="assets/identify.png" alt="">
         </div>
     </header>
@@ -115,19 +209,26 @@
             </div>
             <div class="box">
                 <div class="firstsectionmaintext">
-                        <h1 id="boxheading" data-aos="fade-up" data-aos-duration="800">Program Management</h1>
-                        <p id="boxpara" data-aos="fade-up" data-aos-duration="800">Plays a vital role in overseeing a collection of related projects aimed at achieving overarching business goals. Our Program Management services ensure ideal coordination and alignment across these projects, optimizing resource allocation and driving successful results. We emphasize achieving your objectives through efficient process management, proactive risk mitigation, and strategic oversight.</p>
-                    </div>
+                    <h1 id="boxheading" data-aos="fade-up" data-aos-duration="800">Program Management</h1>
+                    <p id="boxpara" data-aos="fade-up" data-aos-duration="800">Plays a vital role in overseeing a
+                        collection of related projects aimed at achieving overarching business goals. Our Program
+                        Management services ensure ideal coordination and alignment across these projects, optimizing
+                        resource allocation and driving successful results. We emphasize achieving your objectives
+                        through efficient process management, proactive risk mitigation, and strategic oversight.</p>
                 </div>
+            </div>
         </div>
     </section>
     <section id="secondsection">
         <div class="container">
             <div class="textside">
                 <h1 id="secondsectionmainheading" data-aos="fade-up" data-aos-duration="800">Product Engineering</h1>
-                <p id="secondsectionmainpara" data-aos="fade-up" data-aos-duration="800">Transform your ideas into high-impact solutions with our Product Engineering services. We specialize in crafting innovative and reliable digital products, ensuring they are both functional and market-ready. Our focus is on delivering products that drive success and meet your specific business objectives.</p>
+                <p id="secondsectionmainpara" data-aos="fade-up" data-aos-duration="800">Transform your ideas into
+                    high-impact solutions with our Product Engineering services. We specialize in crafting innovative
+                    and reliable digital products, ensuring they are both functional and market-ready. Our focus is on
+                    delivering products that drive success and meet your specific business objectives.</p>
                 <div class="optionone" data-aos="fade-up" data-aos-duration="800">
-                <img id="ticimg" src="assets/tic.png" alt="">
+                    <img id="ticimg" src="assets/tic.png" alt="">
                     <div class="optiononetext">
                         <h3 id="optiononeheading">Advanced Development</h3>
                         <p id="optiononepara">Utilize the latest technologies to build robust and scalable products.</p>
@@ -159,64 +260,81 @@
                 <h1 id="leftsidemainheading" data-aos="fade-up" data-aos-duration="800">DevOps & <br> Security</h1>
                 <div class="leftsidesection">
                     <div class="leftsidesection1">
-                        <img id="leftsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="leftsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="leftsidesection1text">
-                            <h3 id="leftsection1redtext" data-aos="fade-up" data-aos-duration="800">Streamlined Operations</h3>
-                            <p id="leftsection1para" data-aos="fade-up" data-aos-duration="800">Integrate development and operations for improved workflow  <br>efficiency.</p>
+                            <h3 id="leftsection1redtext" data-aos="fade-up" data-aos-duration="800">Streamlined
+                                Operations</h3>
+                            <p id="leftsection1para" data-aos="fade-up" data-aos-duration="800">Integrate development
+                                and operations for improved workflow <br>efficiency.</p>
                         </div>
                     </div>
                     <div class="leftsidesection2">
-                        <img id="leftsection2img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="leftsection2img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="leftsection2text">
-                            <h3 id="leftsection2redtext" data-aos="fade-up" data-aos-duration="800">Enhanced Collaboration</h3>
-                            <p id="leftsection2para" data-aos="fade-up" data-aos-duration="800">Facilitate better teamwork between development and IT <br> teams.</p>
+                            <h3 id="leftsection2redtext" data-aos="fade-up" data-aos-duration="800">Enhanced
+                                Collaboration</h3>
+                            <p id="leftsection2para" data-aos="fade-up" data-aos-duration="800">Facilitate better
+                                teamwork between development and IT <br> teams.</p>
                         </div>
                     </div>
                     <div class="leftsidesection3">
-                        <img id="leftsection3img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="leftsection3img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="leftsection3text">
                             <h3 id="leftsection3redtext" data-aos="fade-up" data-aos-duration="800">Robust Security</h3>
-                            <p id="leftsection3para" data-aos="fade-up" data-aos-duration="800">Implement measures to protect your digital infrastructure from <br> threats.</p>
+                            <p id="leftsection3para" data-aos="fade-up" data-aos-duration="800">Implement measures to
+                                protect your digital infrastructure from <br> threats.</p>
                         </div>
                     </div>
-                    
+
                 </div>
             </div>
             <div class="rightsidetext">
                 <h1 id="rightsidemainheading" data-aos="fade-up" data-aos-duration="800">Managed Services</h1>
                 <div class="rightsidesection">
                     <div class="rightsidesection1">
-                        <img id="rightsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="rightsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="rightsection1text">
                             <h3 id="rightsection1redtext" data-aos="fade-up" data-aos-duration="800">IT Operations</h3>
-                            <p id="rightsection1para" data-aos="fade-up" data-aos-duration="800">Provide ongoing management of your IT infrastructure.</p>
+                            <p id="rightsection1para" data-aos="fade-up" data-aos-duration="800">Provide ongoing
+                                management of your IT infrastructure.</p>
                         </div>
                     </div>
                     <div class="rightsidesection2">
-                        <img id="rightsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="rightsection1img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="rightsection2text">
-                            <h3 id="rightsection2redtext" data-aos="fade-up" data-aos-duration="800">Network Management</h3>
-                            <p id="rightsection2para" data-aos="fade-up" data-aos-duration="800">Oversee and optimize network performance.</p>
+                            <h3 id="rightsection2redtext" data-aos="fade-up" data-aos-duration="800">Network Management
+                            </h3>
+                            <p id="rightsection2para" data-aos="fade-up" data-aos-duration="800">Oversee and optimize
+                                network performance.</p>
                         </div>
                     </div>
                     <div class="rightsidesection3">
-                        <img id="rightsection3img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png" alt="">
+                        <img id="rightsection3img" data-aos="fade-up" data-aos-duration="800" src="assets/arrow (1).png"
+                            alt="">
                         <div class="rightsection3text">
-                            <h3 id="rightsection3redtext" data-aos="fade-up" data-aos-duration="800">Technical Support</h3>
-                            <p id="rightsection3para" data-aos="fade-up" data-aos-duration="800">Offer comprehensive support to resolve technical issues and ensure smooth operations.</p>
+                            <h3 id="rightsection3redtext" data-aos="fade-up" data-aos-duration="800">Technical Support
+                            </h3>
+                            <p id="rightsection3para" data-aos="fade-up" data-aos-duration="800">Offer comprehensive
+                                support to resolve technical issues and ensure smooth operations.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-     <section id="fifthsection">
-    <div class="container5">
+    <section id="fifthsection">
+        <div class="container5">
 
             <div class="heading4">
                 <h3 class="heading4" data-aos="fade-up" data-aos-duration="800">Awards & Recognition</h3>
             </div>
-            <div class="para4" data-aos="fade-up" data-aos-duration="800">We are honored to receive recognition for our excellence from
+            <div class="para4" data-aos="fade-up" data-aos-duration="800">We are honored to receive recognition for our
+                excellence from
                 leading publications worldwide.</div>
         </div>
         <div class="lastimages">
@@ -225,8 +343,8 @@
             <img id="google" data-aos="fade-up" data-aos-duration="800" src="assets/google.png" alt="">
             <img id="good" data-aos="fade-up" data-aos-duration="800" src="assets/goodfirms.png" alt="">
         </div>
-     </section>
-     <section id="sixthsection">
+    </section>
+    <section id="sixthsection">
         <div class="container">
             <div class="sectionend">
 
@@ -346,7 +464,7 @@
         </div>
     </section>
     <footer>
-    <div class="container9">
+        <div class="container9">
             <div class="firstsection">
                 <img id="footerlogo" src="assets/footer-logo.png" alt="">
                 <div class="lastp">
@@ -357,7 +475,7 @@
                     <button class="booking"><a href="">Book a Consulation</a></button>
                 </div>
             </div>
-             <div class="secondsection">
+            <div class="secondsection">
                 <div id="secheadlast">
                     <h5 id="secheadlast">Product</h5>
                 </div>
@@ -381,7 +499,8 @@
             <div class="fourthsection">
                 <div id="fourthhead">
                     <h5 id="fourthhead">Services</h5>
-                    <p id="fourthp"><a id="afourthp" href="/software-development-page/index.html">Software Development</a></p>
+                    <p id="fourthp"><a id="afourthp" href="/software-development-page/index.html">Software
+                            Development</a></p>
                     <p id="fourthp"><a id="afourthp" href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></p>
                     <p id="fourthp"><a id="afourthp" href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></p>
                     <p id="fourthp"><a id="afourthp" href="/Data-Analytics/dataanalytics.html">Data Analytics</a></p>
@@ -422,6 +541,17 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function showsidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar() {
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+
     </script>
 </body>
 

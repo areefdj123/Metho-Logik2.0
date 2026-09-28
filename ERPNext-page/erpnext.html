@@ -13,84 +13,177 @@
 <body>
     <div class="menubar">
         <nav>
+            <div class="sidebar">
+                <div class="hidesidebaricon" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(138, 141, 145);"></i></div>
+                <ul class="sidelink">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="#">About Us</a>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">About Us</h2>
+                            <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/aboutus/about.html">About Us</a></h3>
+                            <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
+                            <h3><a href="/company-culture/company.html">Company Culture</a></h3>
+                            <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.
+                            </p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
+                            <p id="megamenupara">A passionate group of professionals dedicated to transforming visions
+                                into reality.</p>
+                            <h3><a href="/careers/careers.html">Careers</a></h3>
+                            <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless
+                                opportunities.</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Our Offering</a>
+                    <div class="mega-menu">
+                        <div class="megamenuheading">
+                            <h2 id="megamenuheading">Our Offering</h2>
+                            <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
+                                needs.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/software-development-page/index.html">Software Development</a></h3>
+                            <p id="megamenupara">Custom, scalable software.</p>
+                            <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
+                            <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
+                            <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
+                            <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
+                            <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
+                            <p id="megamenupara">Smart, data-driven AI.</p>
+                            <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
+                            <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
+                            <h3><a href="/cloud/cloud.html">Cloud</a></h3>
+                            <p id="megamenupara">Secure, scalable cloud services.</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a>
+                            </h3>
+                            <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
+                            <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
+                            <p id="megamenupara">Effective digital growth strategies..</p>
+                            <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
+                            <p id="megamenupara">Beautiful, user-friendly designs.</p>
+                            <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
+                            <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
+                            <h3><a href="/porject-management/project.html">Project Management</a></h3>
+                            <p id="megamenupara">Empowering Success</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#">Brands</a>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">Our Brand</h2>
+                            <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="#">Cabil</a></h3>
+                            <p id="megamenupara">Complete Business Management Platform</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="#">Imdady</a></h3>
+                            <p id="megamenupara">Restaurant & POS Management Solution</p>
+                        </div>
+                        <div class="extra-column">
+                            <h3><a href="#">Analytics Nest</a></h3>
+                            <p id="megamenupara">Data & AI Solutions Division</p>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="/blogs/blogs.html">Blog</a></li>
+                <li><a href="/contactus/contact.html">Contact Us</a></li>
+            </ul>
+            <button class="sidebarbtn"><a href="https://calendly.com/areefdj123/30min">Get In Touch</a></button>
+        </div>
             <img id="mainlogo" src="assets/logo (1).png" alt="">
-            <div class="hamburger"><i class="fa-solid fa-bars" style="color: rgb(138, 141, 145);"></i>
-</div>
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(138, 141, 145);"></i>
+            </div>
             <ul class="navlink">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="#">About Us</a>
-                <div class="mega-menu">
-                    <div class="mainheading">
-                        <h2 id="megamenuheading">About Us</h2>
-                        <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">About Us</h2>
+                            <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/aboutus/about.html">About Us</a></h3>
+                            <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
+                            <h3><a href="/company-culture/company.html">Company Culture</a></h3>
+                            <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.
+                            </p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
+                            <p id="megamenupara">A passionate group of professionals dedicated to transforming visions
+                                into reality.</p>
+                            <h3><a href="/careers/careers.html">Careers</a></h3>
+                            <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless
+                                opportunities.</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="/aboutus/about.html">About Us</a></h3>
-                        <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
-                        <h3><a href="/company-culture/company.html">Company Culture</a></h3>
-                        <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
-                        <p id="megamenupara">A passionate group of professionals dedicated to transforming visions into reality.</p>
-                        <h3><a href="/careers/careers.html">Careers</a></h3>
-                        <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless opportunities.</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="#">Our Offering</a>
-                <div class="mega-menu">
-                    <div class="megamenuheading">
-                        <h2 id="megamenuheading">Our Offering</h2>
-                        <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their needs.</p>
+                    <div class="mega-menu">
+                        <div class="megamenuheading">
+                            <h2 id="megamenuheading">Our Offering</h2>
+                            <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
+                                needs.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="/software-development-page/index.html">Software Development</a></h3>
+                            <p id="megamenupara">Custom, scalable software.</p>
+                            <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
+                            <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
+                            <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
+                            <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
+                            <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
+                            <p id="megamenupara">Smart, data-driven AI.</p>
+                            <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
+                            <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
+                            <h3><a href="/cloud/cloud.html">Cloud</a></h3>
+                            <p id="megamenupara">Secure, scalable cloud services.</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a>
+                            </h3>
+                            <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
+                            <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
+                            <p id="megamenupara">Effective digital growth strategies..</p>
+                            <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
+                            <p id="megamenupara">Beautiful, user-friendly designs.</p>
+                            <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
+                            <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
+                            <h3><a href="/porject-management/project.html">Project Management</a></h3>
+                            <p id="megamenupara">Empowering Success</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="/software-development-page/index.html">Software Development</a></h3>
-                        <p id="megamenupara">Custom, scalable software.</p>
-                        <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
-                        <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
-                        <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
-                        <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
-                        <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
-                        <p id="megamenupara">Smart, data-driven AI.</p>
-                        <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
-                        <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
-                        <h3><a href="/cloud/cloud.html">Cloud</a></h3>
-                        <p id="megamenupara">Secure, scalable cloud services.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a></h3>
-                        <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
-                        <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
-                        <p id="megamenupara">Effective digital growth strategies..</p>
-                        <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
-                        <p id="megamenupara">Beautiful, user-friendly designs.</p>
-                        <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
-                        <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
-                        <h3><a href="/porject-management/project.html">Project Management</a></h3>
-                        <p id="megamenupara">Empowering Success</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="#">Brands</a>
-                <div class="mega-menu">
-                    <div class="mainheading">
-                        <h2 id="megamenuheading">Our Brand</h2>
-                        <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                    <div class="mega-menu">
+                        <div class="mainheading">
+                            <h2 id="megamenuheading">Our Brand</h2>
+                            <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                        </div>
+                        <div class="middle-column">
+                            <h3><a href="#">Cabil</a></h3>
+                            <p id="megamenupara">Complete Business Management Platform</p>
+                        </div>
+                        <div class="right-column">
+                            <h3><a href="#">Imdady</a></h3>
+                            <p id="megamenupara">Restaurant & POS Management Solution</p>
+                        </div>
+                        <div class="extra-column">
+                            <h3><a href="#">Analytics Nest</a></h3>
+                            <p id="megamenupara">Data & AI Solutions Division</p>
+                        </div>
                     </div>
-                    <div class="middle-column">
-                        <h3><a href="#">Cabil</a></h3>
-                        <p id="megamenupara">Complete Business Management Platform</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="#">Imdady</a></h3>
-                        <p id="megamenupara">Restaurant & POS Management Solution</p>
-                    </div>
-                    <div class="extra-column">
-                        <h3><a href="#">Analytics Nest</a></h3>
-                        <p id="megamenupara">Data & AI Solutions Division</p>
-                    </div>
-                </div>
                 </li>
                 <li><a href="/blogs/blogs.html">Blog</a></li>
                 <li><a href="/contactus/contact.html">Contact Us</a></li>
@@ -106,13 +199,15 @@
                     Solutions</h2>
             </div>
             <div class="mainpara">
-                <p id="maintextp" data-aos="fade-up" data-aos-duration="800">At Methologik, we deliver powerful, end-to-end ERP and business
+                <p id="maintextp" data-aos="fade-up" data-aos-duration="800">At Methologik, we deliver powerful,
+                    end-to-end ERP and business
                     automation solutions designed to streamline operations, increase
                     efficiency, and give you full control over your company's processes.</p>
             </div>
-            <div class="maintextimg" >
+            <div class="maintextimg">
                 <img id="rightimg" data-aos="fade-up" data-aos-duration="800" src="assets/design-right.png" alt="">
-                <img id="bottomright" data-aos="fade-up" data-aos-duration="800" src="assets/design-bottom (1).png" alt="">
+                <img id="bottomright" data-aos="fade-up" data-aos-duration="800" src="assets/design-bottom (1).png"
+                    alt="">
                 <img id="bottomleft" data-aos="fade-up" data-aos-duration="800" src="assets/design-bottom.png" alt="">
             </div>
             <div class="getintouchbutton" data-aos="fade-up" data-aos-duration="800">
@@ -193,11 +288,12 @@
         <div class="container">
             <div class="container3mainhead">
                 <h1 id="container3mainheading">Streamline Your Business with ERP</h1>
-                <p id="container3mainpara">Every great project starts with the right strategy. Let Methologik help you <br>
+                <p id="container3mainpara">Every great project starts with the right strategy. Let Methologik help you
+                    <br>
                     turn your ideas into milestones and milestones into measurable success</p>
-                    <a href="">
-                        <button id="newbutton">Let's Discuss Your Project</button>
-                    </a>
+                <a href="">
+                    <button id="newbutton">Let's Discuss Your Project</button>
+                </a>
             </div>
         </div>
     </section>
@@ -207,7 +303,8 @@
             <div class="heading4">
                 <h3 class="heading4" data-aos="fade-up" data-aos-duration="800">Awards & Recognition</h3>
             </div>
-            <div class="para4" data-aos="fade-up" data-aos-duration="800">We are honored to receive recognition for our excellence from
+            <div class="para4" data-aos="fade-up" data-aos-duration="800">We are honored to receive recognition for our
+                excellence from
                 leading publications worldwide.</div>
         </div>
         <div class="lastimages">
@@ -337,7 +434,7 @@
         </div>
     </section>
     <footer>
-    <div class="container9">
+        <div class="container9">
             <div class="firstsection">
                 <img id="footerlogo" src="assets/footer-logo.png" alt="">
                 <div id="lastp">
@@ -348,7 +445,7 @@
                     <button class="booking"><a href="">Book a Consulation</a></button>
                 </div>
             </div>
-             <div class="secondsection">
+            <div class="secondsection">
                 <div id="secheadlast">
                     <h5 id="secheadlast">Product</h5>
                 </div>
@@ -372,7 +469,8 @@
             <div class="fourthsection">
                 <div id="fourthhead">
                     <h5 id="fourthhead">Services</h5>
-                    <p id="fourthp"><a id="afourthp" href="/software-development-page/index.html">Software Development</a></p>
+                    <p id="fourthp"><a id="afourthp" href="/software-development-page/index.html">Software
+                            Development</a></p>
                     <p id="fourthp"><a id="afourthp" href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></p>
                     <p id="fourthp"><a id="afourthp" href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></p>
                     <p id="fourthp"><a id="afourthp" href="/Data-Analytics/dataanalytics.html">Data Analytics</a></p>
@@ -413,6 +511,17 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        function showsidebar(){
+               const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
+        function hidesidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'none'
+        }
+        
     </script>
 </body>
 

@@ -1,25 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
-        
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
-    </head>
-    
-    <body>
-        
-        <div class="menubar">
-            <nav>
-                <div class="sidebar">
-                <div class="hidesidebaricon" onclick="hidesidebar()"><i class="fa-solid fa-xmark" style="color: rgb(138, 141, 145);"></i></div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css">
+</head>
+
+<body>
+
+    <div class="menubar">
+        <nav>
+            <div class="sidebar">
+                <div class="hidesidebaricon" onclick="hidesidebar()"><i class="fa-solid fa-xmark"
+                        style="color: rgb(138, 141, 145);"></i></div>
                 <ul class="sidelink">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#" onclick="showabout()">About Us<i id="mobilearrow" class="fa-solid fa-angle-down"
+                                style="color: rgb(0, 0, 0);"></i></a>
+                        <div class="mobdropabout">
+                            <h4 id="mobaboutusheading"><a id="mobdroplink" href="/aboutus/about.html"
+                                    style="color: rgb(182, 20, 23);">About US</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/company-culture/company.html"
+                                    style="color: rgb(182, 20, 23);">Company Culture</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/ourteam/ourteam.html"
+                                    style="color: rgb(182, 20, 23);">Our Team</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/careers/careers.html"
+                                    style="color: rgb(182, 20, 23);">Careers</a></h4>
+                        </div>
+                        <div class="mega-menu">
+                            <div class="mainheading">
+                                <h2 id="megamenuheading">About Us</h2>
+                                <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
+                            </div>
+                            <div class="middle-column">
+                                <h3><a href="/aboutus/about.html">About Us</a></h3>
+                                <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
+                                <h3><a href="/company-culture/company.html">Company Culture</a></h3>
+                                <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to
+                                    life.
+                                </p>
+                            </div>
+                            <div class="right-column">
+                                <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
+                                <p id="megamenupara">A passionate group of professionals dedicated to transforming
+                                    visions
+                                    into reality.</p>
+                                <h3><a href="/careers/careers.html">Careers</a></h3>
+                                <p id="megamenupara">Join us to shape the future with groundbreaking solutions and
+                                    limitless
+                                    opportunities.</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#" onclick="showoffering()">Our Offering <i id="mobilearrow"
+                                class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
+                        <div class="mobofferingdrop">
+                            <h4 id="mobofferingheading"><a href="/software-development-page/index.html"
+                                    style="color: rgb(182, 20, 23);">Software Development</a></h4>
+                            <h4 id="mobfferingheading"><a href="/ERPNext-page/erpnext.html"
+                                    style="color: rgb(182, 20, 23);">ERPNext Consultancy</a></h4>
+                            <h4 id="mobofferingheading"><a href="/artificial-intelligence/ai.html"
+                                    style="color: rgb(182, 20, 23);">AI & LLM Solutions</a></h4>
+                            <h4 id="mobofferingheading"><a href="/Data-Analytics/dataanalytics.html"
+                                    style="color: rgb(182, 20, 23);">Data Analytics</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-implementation/digital.html"
+                                    style="color: rgb(182, 20, 23);">Digital Implementation</a></h4>
+                            <h4 id="mobofferingheading"><a href="/cloud/cloud.html"
+                                    style="color: rgb(182, 20, 23);">Cloud</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-strategy/strategy.html"
+                                    style="color: rgb(182, 20, 23);">Strategic Insights & Advisory Services</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-marketing/marketing.html"
+                                    style="color: rgb(182, 20, 23);">Digital Marketing</a></h4>
+                            <h4 id="mobofferingheading"><a href="/uxandui/ux-ui.html"
+                                    style="color: rgb(182, 20, 23);">Poduct Design (UX/UI)</a></h4>
+                            <h4 id="mobofferingheading"><a href="/resource-page/resource.html"
+                                    style="color: rgb(182, 20, 23);">Resource Hiring</a></h4>
+                            <h4 id="mobofferingheading"><a href="/porject-management/project.html"
+                                    style="color: rgb(182, 20, 23);">Project Manager</a></h4>
+                        </div>
+                        <div class="mega-menu">
+                            <div class="megamenuheading">
+                                <h2 id="megamenuheading">Our Offering</h2>
+                                <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
+                                    needs.</p>
+                            </div>
+                            <div class="middle-column">
+                                <h3><a href="/software-development-page/index.html">Software Development</a></h3>
+                                <p id="megamenupara">Custom, scalable software.</p>
+                                <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
+                                <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
+                                <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
+                                <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
+                                <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
+                                <p id="megamenupara">Smart, data-driven AI.</p>
+                                <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
+                                <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
+                                <h3><a href="/cloud/cloud.html">Cloud</a></h3>
+                                <p id="megamenupara">Secure, scalable cloud services.</p>
+                            </div>
+                            <div class="right-column">
+                                <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a>
+                                </h3>
+                                <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
+                                <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
+                                <p id="megamenupara">Effective digital growth strategies..</p>
+                                <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
+                                <p id="megamenupara">Beautiful, user-friendly designs.</p>
+                                <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
+                                <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
+                                <h3><a href="/porject-management/project.html">Project Management</a></h3>
+                                <p id="megamenupara">Empowering Success</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="#" onclick="showbrands()">Brands <i id="mobilearrow" class="fa-solid fa-angle-down"
+                                style="color: rgb(0, 0, 0);" onclick="arrowup()"></i></a>
+                        <div class="mobbrandsdrop">
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Cabil</a></h4>
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Imady</a></h4>
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Analytic Nests</a></h4>
+                        </div>
+                        <div class="mega-menu">
+                            <div class="mainheading">
+                                <h2 id="megamenuheading">Our Brand</h2>
+                                <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
+                            </div>
+                            <div class="middle-column">
+                                <h3><a href="#">Cabil</a></h3>
+                                <p id="megamenupara">Complete Business Management Platform</p>
+                            </div>
+                            <div class="right-column">
+                                <h3><a href="#">Imdady</a></h3>
+                                <p id="megamenupara">Restaurant & POS Management Solution</p>
+                            </div>
+                            <div class="extra-column">
+                                <h3><a href="#">Analytics Nest</a></h3>
+                                <p id="megamenupara">Data & AI Solutions Division</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="/blogs/blogs.html">Blog</a></li>
+                    <li><a href="/contactus/contact.html">Contact Us</a></li>
+                </ul>
+                <button class="sidebarbtn"><a href="https://calendly.com/areefdj123/30min">Get In Touch</a></button>
+            </div>
+            <img id="mainlogo" src="assets/logo.png" alt="">
+            <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars"
+                    style="color: rgb(138, 141, 145);"></i>
+            </div>
+            <ul class="navlink">
                 <li><a href="/index.html">Home</a></li>
-                <li><a href="#">About Us</a>
+                <li><a href="#">About Us <i class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
                     <div class="mega-menu">
                         <div class="mainheading">
                             <h2 id="megamenuheading">About Us</h2>
@@ -42,10 +178,11 @@
                         </div>
                     </div>
                 </li>
-                <li class="offering"><a href="#">Our Offering</a>
+                <li class="ouroffering"><a href="#" onclick="offeringdropdown()">Our Offering <i
+                            class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
                     <div class="mega-menu">
                         <div class="megamenuheading">
-                            <h2 id="megamenuheading" onclick="offeringdropdown()">Our Offering</h2>
+                            <h2 id="megamenuheading">Our Offering</h2>
                             <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their
                                 needs.</p>
                         </div>
@@ -78,7 +215,7 @@
                         </div>
                     </div>
                 </li>
-                <li><a href="#">Brands</a>
+                <li><a href="#">Brands <i class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
                     <div class="mega-menu">
                         <div class="mainheading">
                             <h2 id="megamenuheading">Our Brand</h2>
@@ -101,90 +238,6 @@
                 <li><a href="/blogs/blogs.html">Blog</a></li>
                 <li><a href="/contactus/contact.html">Contact Us</a></li>
             </ul>
-            <button class="sidebarbtn"><a href="https://calendly.com/areefdj123/30min">Get In Touch</a></button>
-        </div>
-                <img id="mainlogo" src="assets/logo.png" alt="">
-                <div class="hamburger" onclick="showsidebar()"><i class="fa-solid fa-bars" style="color: rgb(138, 141, 145);"></i>
-                </div>
-                    <ul class="navlink">
-                        <li><a href="/index.html">Home</a></li>
-                    <li><a href="#">About Us</a>
-                        <div class="mega-menu">
-                            <div class="mainheading">
-                                <h2 id="megamenuheading">About Us</h2>
-                                <p id="megamenupara">Building a legacy of innovation, collaboration, and excellence.</p>
-                            </div>
-                            <div class="middle-column">
-                                <h3><a href="/aboutus/about.html">About Us</a></h3>
-                                <p id="megamenupara">Empowering Digital Innovation with Design, Data &Technology.</p>
-                        <h3><a href="/company-culture/company.html">Company Culture</a></h3>
-                        <p id="megamenupara">Fostering a workplace where creativity thrives and ideas come to life.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/ourteam/ourteam.html">Our Team</a></h3>
-                        <p id="megamenupara">A passionate group of professionals dedicated to transforming visions into reality.</p>
-                        <h3><a href="/careers/careers.html">Careers</a></h3>
-                        <p id="megamenupara">Join us to shape the future with groundbreaking solutions and limitless opportunities.</p>
-                    </div>
-                </div>
-                </li>
-                <li class="ouroffering"><a href="#" onclick="offeringdropdown()">Our Offering</a>
-                    <div class="mega-menu">
-                    <div class="megamenuheading">
-                        <h2 id="megamenuheading">Our Offering</h2>
-                        <p id="megamenupara">Empowering businesses with cutting edge solutions tailored to their needs.</p>
-                    </div>
-                    <div class="middle-column">
-                        <h3><a href="/software-development-page/index.html">Software Development</a></h3>
-                        <p id="megamenupara">Custom, scalable software.</p>
-                        <h3><a href="/ERPNext-page/erpnext.html">ERPNext Consultancy</a></h3>
-                        <p id="megamenupara">Smart ERP & Business-Automation Solutions.</p>
-                        <h3><a href="/artificial-intelligence/ai.html">AI & LLM Solutions</a></h3>
-                        <p id="megamenupara">Revolutionizing Industries through Artificial intelligence</p>
-                        <h3><a href="/Data-Analytics/dataanalytics.html">Data Analytics</a></h3>
-                        <p id="megamenupara">Smart, data-driven AI.</p>
-                        <h3><a href="/digital-implementation/digital.html">Digital Implementation</a></h3>
-                        <p id="megamenupara">Seamlessly executing strategies for measurable impact.</p>
-                        <h3><a href="/cloud/cloud.html">Cloud</a></h3>
-                        <p id="megamenupara">Secure, scalable cloud services.</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="/digital-strategy/strategy.html">Strategic Insights & Advisory Services</a></h3>
-                        <p id="megamenupara">Delivering actionable guidance for transformative results.</p>
-                        <h3><a href="/digital-marketing/marketing.html">Digital Marketing</a></h3>
-                        <p id="megamenupara">Effective digital growth strategies..</p>
-                        <h3><a href="/uxandui/ux-ui.html">Product Design (UX/UI)</a></h3>
-                        <p id="megamenupara">Beautiful, user-friendly designs.</p>
-                        <h3><a href="/resource-page/resource.html">Resource Hiring</a></h3>
-                        <p id="megamenupara">Hire Remote Developers & IT Resources.</p>
-                        <h3><a href="/porject-management/project.html">Project Management</a></h3>
-                        <p id="megamenupara">Empowering Success</p>
-                    </div>
-                </div>
-            </li>
-            <li><a href="#">Brands</a>
-                <div class="mega-menu">
-                    <div class="mainheading">
-                        <h2 id="megamenuheading">Our Brand</h2>
-                        <p id="megamenupara">Innovative ventures driving impactful solutions.</p>
-                    </div>
-                    <div class="middle-column">
-                        <h3><a href="#">Cabil</a></h3>
-                        <p id="megamenupara">Complete Business Management Platform</p>
-                    </div>
-                    <div class="right-column">
-                        <h3><a href="#">Imdady</a></h3>
-                        <p id="megamenupara">Restaurant & POS Management Solution</p>
-                    </div>
-                    <div class="extra-column">
-                        <h3><a href="#">Analytics Nest</a></h3>
-                        <p id="megamenupara">Data & AI Solutions Division</p>
-                    </div>
-                </div>
-            </li>
-                <li><a href="/blogs/blogs.html">Blog</a></li>
-                <li><a href="/contactus/contact.html">Contact Us</a></li>
-            </ul>
             <button class="btn"><a href="https://calendly.com/areefdj123/30min">Get In Touch</a></button>
         </nav>
     </div>
@@ -193,14 +246,15 @@
             <div class="maintext" data-aos="fade-up">
                 <h1 id="mainheading"><span>We build</span><span style="color: rgb(182, 20, 23);"> Software, <br>
                         Products & Tech <br>
-                        Solutions. <br></span> 
+                        Solutions. <br></span>
                     <span>Your Business Actually Needs.</span>
                 </h1>
-                <p id="firstpara">We bring together strategy, engineering and design to <br> deliver technology that moves 
+                <p id="firstpara">We bring together strategy, engineering and design to <br> deliver technology that
+                    moves
                     your business forward <br>
                     — globally.</p>
-                <button class="booking" data-aos="fade-up"
-     data-aos-duration="800"><a href="">Book a Consulation</a></button>
+                <button class="booking" data-aos="fade-up" data-aos-duration="800"><a href="">Book a
+                        Consulation</a></button>
             </div>
             <div class="mainvideo" data-aos="fade-up">
 
@@ -209,131 +263,130 @@
             </div>
         </div>
         <div class="container">
-                <h3 class="slideanimationheading" data-aos="fade-up"
-     data-aos-duration="800">Trusted by Growth <br>
-                    Teams Worldwide</h3>
-                <div class="carousel" data-aos="fade-up"
-     data-aos-duration="800">
-                    
+            <h3 class="slideanimationheading" data-aos="fade-up" data-aos-duration="800">Trusted by Growth <br>
+                Teams Worldwide</h3>
+            <div class="carousel" data-aos="fade-up" data-aos-duration="800">
+
                 <div class="group">
-                <div class="images"><img src="assets/Logo-9.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-8.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-7.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-6.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-5.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-4.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-3.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-12.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-11.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-9.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-8.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-7.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-6.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-5.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-4.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-3.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-12.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-11.png" alt=""></div>
+                </div>
+                <div aria-hidden class="group">
+                    <div class="images"><img src="assets/Logo-9.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-8.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-7.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-6.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-5.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-4.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-3.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-12.png" alt=""></div>
+                    <div class="images"><img src="assets/Logo-11.png" alt=""></div>
+                </div>
             </div>
-            <div aria-hidden class="group">
-                <div class="images"><img src="assets/Logo-9.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-8.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-7.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-6.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-5.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-4.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-3.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-12.png" alt=""></div>
-                <div class="images"><img src="assets/Logo-11.png" alt=""></div>
-            </div>
-        </div>
     </header>
-    <section id="firstsection" style="background: url(../assets/Ellipse\ 1.png); background-color: #131421; background-repeat: no-repeat; background-position: right bottom;">
+    <section id="firstsection"
+        style="background: url(../assets/Ellipse\ 1.png); background-color: #131421; background-repeat: no-repeat; background-position: right bottom;">
 
         <div class="container">
-            
-        <div class="leftside">
-            <div class="leftpara">
-                <p id="leftpara">Methologik delivers tailored strategies, integrating <br> industry insights and innovative solutions
-                    to
-                    drive <br> sustainable growth in today's competitive landscape.</p>
-            </div>
-            <div class="heading">
-                <h4 id="strategicheading">Strategic Expertise</h4>
-            </div>
-            <div class="strategy">
-                <img src="assets/st-1.png" alt="">
-                <h5>Strategic Alignment</h5>
-            </div>
-            <div class="expert">
-                <img src="assets/st-2.png" alt="">
-                <h5>Expert Guidance</h5>
-            </div>
-            <div class="perform">
-                <img src="assets/st-3.png" alt="">
-                <h5>Performance Optimization</h5>
-            </div>
-        </div>
 
-        <div class="rightside">
-            <div class="rightpara">
-                <p id="rightpara">We provide tailored strategies and expert <br> insights to help businesses align,
-                    optimize, and <br>
-                    thrive in a competitive landscape.</p>
+            <div class="leftside">
+                <div class="leftpara">
+                    <p id="leftpara">Methologik delivers tailored strategies, integrating <br> industry insights and
+                        innovative solutions
+                        to
+                        drive <br> sustainable growth in today's competitive landscape.</p>
+                </div>
+                <div class="heading">
+                    <h4 id="strategicheading">Strategic Expertise</h4>
+                </div>
+                <div class="strategy">
+                    <img src="assets/st-1.png" alt="">
+                    <h5>Strategic Alignment</h5>
+                </div>
+                <div class="expert">
+                    <img src="assets/st-2.png" alt="">
+                    <h5>Expert Guidance</h5>
+                </div>
+                <div class="perform">
+                    <img src="assets/st-3.png" alt="">
+                    <h5>Performance Optimization</h5>
+                </div>
             </div>
-            <div class="righttext">
-                <div class="flex">
 
-                    <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
+            <div class="rightside">
+                <div class="rightpara">
+                    <p id="rightpara">We provide tailored strategies and expert <br> insights to help businesses align,
+                        optimize, and <br>
+                        thrive in a competitive landscape.</p>
+                </div>
+                <div class="righttext">
+                    <div class="flex">
+
+                        <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
+                        <div>
+                            <h5>Long-term Growth</h5>
+                        </div>
+                    </div>
                     <div>
-                        <h5>Long-term Growth</h5>
+                        <p id="long">Align your operations with long-term business goals for sustainable
+                            <br> growth.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="efficency">
+                    <div class="flex">
+
+                        <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
+                        <h5>Efficiency Enhancement</h5>
+                    </div>
+                    <div>
+                        <p>Identify inefficiencies and implement strategies to enhance productivity.</p>
                     </div>
                 </div>
-                <div>
-                    <p id="long">Align your operations with long-term business goals for sustainable
-                        <br> growth.
-                    </p>
+                <div class="technology">
+                    <div class="flex">
+
+                        <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
+                        <h5>Technology-Driven Optimization</h5>
+                    </div>
+                    <div>
+                        <p>Optimize processes through advanced technology and streamlined <br> workflows.</p>
+                    </div>
                 </div>
 
-            </div>
+                <div class="unified">
+                    <div class="flex">
 
-            <div class="efficency">
-                <div class="flex">
-
-                    <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
-                    <h5>Efficiency Enhancement</h5>
-                </div>
-                <div>
-                    <p>Identify inefficiencies and implement strategies to enhance productivity.</p>
-                </div>
-            </div>
-            <div class="technology">
-                <div class="flex">
-
-                    <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
-                    <h5>Technology-Driven Optimization</h5>
-                </div>
-                <div>
-                    <p>Optimize processes through advanced technology and streamlined <br> workflows.</p>
-                </div>
-            </div>
-
-            <div class="unified">
-                <div class="flex">
-
-                    <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
-                    <h5>Unified Departmental Collaboration</h5>
-                </div>
-                <div>
-                    <p>Ensure all departments collaborate toward unified, strategic objectives.</p>
+                        <img id="rightsideimg" src="assets/Check-Double--Streamline-Ultimate 1.png" alt="">
+                        <h5>Unified Departmental Collaboration</h5>
+                    </div>
+                    <div>
+                        <p>Ensure all departments collaborate toward unified, strategic objectives.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <section id="secondsection">
         <div class="container">
 
-            <h2 class="heading4"data-aos="fade-in"
-     data-aos-duration="800">Empowering Businesses with Cutting <br> Edge Solutions Tailored to Their Needs</h2>
-            <button class="booking" data-aos="fade-up"
-     data-aos-duration="800"><a href="">Book a Consulation</a></button>
+            <h2 class="heading4" data-aos="fade-in" data-aos-duration="800">Empowering Businesses with Cutting <br> Edge
+                Solutions Tailored to Their Needs</h2>
+            <button class="booking" data-aos="fade-up" data-aos-duration="800"><a href="">Book a
+                    Consulation</a></button>
         </div>
 
         <div class="colums">
-            <div class="box1" data-aos="fade-up"
-     data-aos-duration="800">
+            <div class="box1" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/CursorClick.png" alt="">
                 <div>
                     <h5 class="boxh">Software Development</h5>
@@ -360,8 +413,7 @@
                     <p>Revolutionizing Industries through Artificial intelligence</p>
                 </div>
             </div>
-            <div class="box4" data-aos="fade-up"
-     data-aos-duration="800">
+            <div class="box4" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/CursorClick.png" alt="">
                 <div>
                     <h5 class="boxh">Data Analytics</h5>
@@ -388,8 +440,7 @@
                     <p>Secure, scalable cloud services</p>
                 </div>
             </div>
-            <div class="box7" data-aos="fade-up"
-     data-aos-duration="800">
+            <div class="box7" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/CursorClick.png" alt="">
                 <div>
                     <h5 class="boxh">Strategic Insights & Advisory Services</h5>
@@ -416,8 +467,7 @@
                     <p>Beautiful, user-friendly designs</p>
                 </div>
             </div>
-            <div class="box10" data-aos="fade-up"
-     data-aos-duration="800">
+            <div class="box10" data-aos="fade-up" data-aos-duration="800">
                 <img src="assets/CursorClick.png" alt="">
                 <div>
                     <h5 class="boxh">Resource Hiring</h5>
@@ -440,63 +490,63 @@
     <section id="thirdsection">
         <div class="container">
 
-                <div id="buisnessimg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
-                    <img id="buisnessimg" src="assets/GIF-1.gif" alt="buisnessimg">
+            <div id="buisnessimg" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="700">
+                <img id="buisnessimg" src="assets/GIF-1.gif" alt="buisnessimg">
 
-                </div>
-                <div class="buisnesstext">
+            </div>
+            <div class="buisnesstext">
 
-                    <div class="buisnessh">
-                        <h2 class="buisnessheading" data-aos="fade-up"
-     data-aos-duration="800">At Methologik, Transforming Business <br> Potential into Measurable
-                            Success Through <br> Innovative Solutions.</h2>
-                    </div>
-                    <div>
-                        <p class="buisnessp1" data-aos="fade-up"
-     data-aos-duration="800">We specialize in delivering high-quality web and mobile app <br>
-                            development services to businesses globally, maintaining a 100% <br> success rate in project
-                            delivery. As a leading IT firm in Pakistan, we <br> have a team of highly skilled developers
-                            dedicated to delivering <br> innovative and tailored solutions</p>
-                    </div>
-                    <div>
-                        <p class="buisnessp2" data-aos="fade-up"
-     data-aos-duration="800">Our design-focused methodology and precise project execution <br>
-                            distinguish us as the preferred partner for businesses seeking reliable <br> and impactful
-                            IT solutions that drive measurable results.</p>
-                    </div>
+                <div class="buisnessh">
+                    <h2 class="buisnessheading" data-aos="fade-up" data-aos-duration="800">At Methologik, Transforming
+                        Business <br> Potential into Measurable
+                        Success Through <br> Innovative Solutions.</h2>
                 </div>
-            
+                <div>
+                    <p class="buisnessp1" data-aos="fade-up" data-aos-duration="800">We specialize in delivering
+                        high-quality web and mobile app <br>
+                        development services to businesses globally, maintaining a 100% <br> success rate in project
+                        delivery. As a leading IT firm in Pakistan, we <br> have a team of highly skilled developers
+                        dedicated to delivering <br> innovative and tailored solutions</p>
+                </div>
+                <div>
+                    <p class="buisnessp2" data-aos="fade-up" data-aos-duration="800">Our design-focused methodology and
+                        precise project execution <br>
+                        distinguish us as the preferred partner for businesses seeking reliable <br> and impactful
+                        IT solutions that drive measurable results.</p>
+                </div>
+            </div>
+
         </div>
     </section>
     <section id="fourthsection">
 
         <div class="container">
             <div class="rowheadeing">
-                <h2 class="rowheading" data-aos="fade-up"
-     data-aos-duration="800">Excel with Methologik's <br> Innovation</h2>
-                <div class="rowpara" >
-                    <p class="rowpara" data-aos="fade-up"
-     data-aos-duration="800">Grow with Methologik's creative solutions. Our expertise with <br> AWS, Power BI, and
+                <h2 class="rowheading" data-aos="fade-up" data-aos-duration="800">Excel with Methologik's <br>
+                    Innovation</h2>
+                <div class="rowpara">
+                    <p class="rowpara" data-aos="fade-up" data-aos-duration="800">Grow with Methologik's creative
+                        solutions. Our expertise with <br> AWS, Power BI, and
                         Microsoft enables us to transform data <br> into insights and increase efficiency.</p>
-                    </div>
-                </div>
-                <div id="rowimg">
-                    <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/AMazon.png" alt="">
-                    <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/mico.png" alt="">
-                    <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/poweBi.png" alt="">
-                    
                 </div>
             </div>
-        </section>
-        <section id="fifthsection">
-            <div class="container">
-                <div id="earthheading">
-                    <h2 id="earthheading">Our Global <br>
-                        Presence</h2>
-                    </div>
-                    <img id="earth" src="assets/Earth.png" alt="">
-                </div>
-            </section>
+            <div id="rowimg">
+                <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/AMazon.png" alt="">
+                <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/mico.png" alt="">
+                <img id="rowimage" data-aos="fade-up" data-aos-duration="800" src="assets/poweBi.png" alt="">
+
+            </div>
+        </div>
+    </section>
+    <section id="fifthsection">
+        <div class="container">
+            <div id="earthheading">
+                <h2 id="earthheading">Our Global <br>
+                    Presence</h2>
+            </div>
+            <img id="earth" src="assets/Earth.png" alt="">
+        </div>
+    </section>
     <div class="container8">
         <div class="lasttext">
             <p class="lasttext">We bring expertise and innovation together to solve your toughest challenges with
@@ -539,25 +589,21 @@
             <div class="fourthsection">
                 <div id="fourthhead">
                     <h5 id="fourthhead">Services</h5>
-                    <p id="fourthp"><a id="afourthp"
-                            href="/software-development-page/index.html">Software
+                    <p id="fourthp"><a id="afourthp" href="/software-development-page/index.html">Software
                             Development</a></p>
-                    <p id="fourthp"><a id="afourthp"
-                            href="/ERPNext-page/erpnext.html">ERPNext
+                    <p id="fourthp"><a id="afourthp" href="/ERPNext-page/erpnext.html">ERPNext
                             Consultancy</a></p>
                     <p id="fourthp"><a id="afourthp" href="/artificial-intelligence/ai.html">AI &
                             LLM Solutions</a></p>
                     <p id="fourthp"><a id="afourthp" href="/Data-Analytics/dataanalytics.html">Data
                             Analytics</a></p>
                     <p id="fourthp"><a id="afourthp" href="/cloud/cloud.html">Cloud</a></p>
-                    <p id="fourthp"><a id="afourthp"
-                            href="/digital-marketing/marketing.html">Digital Marketing</a></p>
+                    <p id="fourthp"><a id="afourthp" href="/digital-marketing/marketing.html">Digital Marketing</a></p>
                     <p id="fourthp"><a id="afourthp" href="/uxandui/ux-ui.html">Product &
                             Design(UX/UI)</a></p>
                     <p id="fourthp"><a id="afourthp" href="/resource-page/resource.html">Resource
                             Hiring</a></p>
-                    <p id="fourthp"><a id="afourthp"
-                            href="/porject-management/project.html">Project Manager</a></p>
+                    <p id="fourthp"><a id="afourthp" href="/porject-management/project.html">Project Manager</a></p>
                 </div>
             </div>
             <div class="fifthsection">
@@ -592,14 +638,51 @@
         AOS.init();
     </script>
     <script>
-        function showsidebar(){
+        function showsidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'flex'
 
         }
-        function hidesidebar(){
+        function hidesidebar() {
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
+        }
+        function showabout() {
+            const brands = document.querySelector('.mobdropabout')
+            if (brands.style.display === "block") {
+                brands.style.display = "none";
+            } else {
+                brands.style.display = "block";
+            }
+        }
+        function showoffering() {
+            const offering = document.querySelector('.mobofferingdrop')
+            if (offering.style.display === "block") {
+                offering.style.display = "none";
+            } else {
+                offering.style.display = "block";
+            }
+        }
+
+
+        function showbrands() {
+            const brands = document.querySelector('.mobbrandsdrop')
+            if (brands.style.display === "block") {
+                brands.style.display = "none";
+            } else {
+                brands.style.display = "block";
+            }
+        }
+        function arrowup() {
+            const arrowupside = document.querySelector('#mobilearrow')
+
+            if (arrowupside.style.display === "block") {
+                arrowupside.style.display = "none";
+                arrowupside.style.transform = "rotate(0deg)";
+            } else {
+                arrowupside.style.display = "block";
+                arrowupside.style.transform = "rotate(180deg)";
+            }
         }
     </script>
 </body>

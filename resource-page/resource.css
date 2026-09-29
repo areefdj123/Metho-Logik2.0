@@ -2,9 +2,14 @@
     ul{
         display: none;
     }
-
+    li a{
+        justify-content: flex-start !important;
+    }
     .navlink {
         display: none;
+    }
+    .sidebarbtn{
+        margin-bottom: 1rem !important;
     }
 
     .btn {
@@ -17,15 +22,6 @@
         display: block !important;
     }
     .mega-menu{
-        top: 45% !important;
-        flex-direction: column !important;
-        padding: 1rem !important;
-        display: block !important;
-    }
-    #megamenuheading{
-        display: none !important;
-    }
-    #megamenupara{
         display: none !important;
     }
     #mainlogo{
@@ -200,9 +196,17 @@
          ul {
         display: none;
     }
-
-    li {
+    li a{
+        justify-content: flex-start !important;
+    }
+    .navlink {
         display: none;
+    }
+    .sidebar{
+        width: 50% !important;
+    }
+    .sidebarbtn{
+        margin-bottom: 1rem !important;
     }
 
     .btn {
@@ -728,6 +732,15 @@ nav ul li:hover .mega-menu {
 .hidesidebaricon{
     font-size: 1.5rem;
     padding-top: 1rem;
+}
+.mobdropabout{
+    display: none;
+}
+.mobofferingdrop{
+    display: none;
+}
+.mobbrandsdrop{
+    display: none;
 }
 header{
     padding: 10rem 0 3rem 0;

@@ -15,23 +15,15 @@
         display: block !important;
         font-size: 2rem !important;
     }
+    li a{
+        justify-content: flex-start !important;
+    }
     .mega-menu{
-        top: 45% !important;
-        flex-direction: column !important;
-        padding: 1rem !important;
-        display: block !important;
+      display: none !important;
     }
-    .mega-menuabout{
-        top: 30% !important;
-        flex-direction: column !important;
-        padding: 1rem !important;
-        display: block !important;
-    }
-    #megamenuheading{
-        display: none;
-    }
-    #megamenupara{
-        display: none !important;
+    #mobdroplink{
+        align-items: first baseline !important;
+        text-align: left;
     }
 
     ul{
@@ -315,16 +307,32 @@
         padding: 0 1rem !important;
         margin: auto;
     }
+    .sidebar{
+        width: 50% !important;
+    }
 
     nav {
         display: flex;
         align-items: center;
         justify-content: space-between !important;
         margin: auto;
+        margin-top: 0px !important;
+        padding: 1rem !important;
+        gap: 32 rem !important;
+    }
+    .hamburger{
+        font-size: 1.5rem !important;
+        display: block !important;
     }
 
-    ul{
+    .navlink{
         display:  none !important;
+    }
+    .mega-menu{
+        display: none !important;
+    }
+    li a{
+        justify-content: flex-start !important;
     }
 
     .btn {
@@ -333,6 +341,7 @@
         justify-content: center;
         align-items: center;
         max-width: 145px !important;
+        display: none;
     }
     .maintext{
         display: flex;
@@ -369,7 +378,7 @@
         margin-bottom: 1.5rem !important;
     }
     #buisnessimg{
-        max-width: 55% !important;
+        max-width: 70% !important;
         margin-bottom: 2rem !important;
     }
     .rowpara{
@@ -400,7 +409,7 @@
     }
 
 }
-    @media (min-width: 1440px) and (max-width: 2560px) {
+    @media (min-width: 1441px) and (max-width: 2560px) {
         .container{
             justify-content: space-between !important;
             gap: 3rem !important;
@@ -797,6 +806,7 @@ a:hover {
     font-family: sans-serif;
     font-size: 16px;
     line-height: 25px;
+    margin-bottom: 2rem !important;
 }
 
 .sidebarbtn a {
@@ -932,7 +942,7 @@ nav ul li:hover .mega-menu {
     width: 100%;
     top: 0;
     right: 0;
-    height: 100%;
+    height: calc(100%);
     z-index: 999;
     background-color: rgba(255, 255, 255, 0.502);
     backdrop-filter: blur(10px);
@@ -954,6 +964,23 @@ nav ul li:hover .mega-menu {
 .hidesidebaricon{
     font-size: 1.5rem;
     padding-top: 1rem;
+}
+.mobbrandsdrop{
+    display: none;
+}
+.mobdropabout{
+    display: none;
+}
+.mobofferingdrop{
+    display: none;
+}
+#mobilearrow{
+    display: inline-block !important;
+    transition: tranform 0.7s ease;
+    transform: rotate(0deg);
+}
+#mobilearrow.up{
+    transform: rotate(180deg) !important;
 }
 header{
     padding: 10rem 0 3rem 0;
@@ -1622,10 +1649,12 @@ img {
 
 #buisnessimg {
     height: auto;
-    max-width: 100%;
+    max-width: 80%;
     display: block;
 }
-
+.buisnesstext{
+    width: 100%;
+}
 .buisnessheading {
     font-family: sans-serif;
     font-size: 32px;

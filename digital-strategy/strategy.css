@@ -2,7 +2,9 @@
     ul {
         display: none;
     }
-
+    li a{
+        justify-content: flex-start !important;
+    }
     .navlink {
         display: none;
     }
@@ -16,16 +18,10 @@
         display: block !important;
         font-size: 1.5rem !important;
     }
+    .sidebarbtn{
+        margin-bottom: 1rem !important;
+    }
     .mega-menu{
-        top: 45% !important;
-        flex-direction: column !important;
-        padding: 1rem !important;
-        display: block !important;
-    }
-    #megamenuheading{
-        display: none !important;
-    }
-    #megamenupara{
         display: none !important;
     }
     #mainlogo{
@@ -211,9 +207,17 @@
         ul {
         display: none;
     }
-
-    li {
+    li a{
+        justify-content: flex-start !important;
+    }
+    .navlink {
         display: none;
+    }
+    .sidebarbtn{
+        margin-bottom: 1rem !important;
+    }
+    .sidebar{
+        width: 50% !important;
     }
 
     .btn {
@@ -228,7 +232,9 @@
     #mainlogo{
         max-width: 25% !important;
     }
-
+    .mega-menu{
+        display: none !important;
+    }
     nav {
         padding-left: 0px !important;
         padding-right: 0px !important;
@@ -658,6 +664,15 @@ nav ul li:hover .mega-menu {
 .hidesidebaricon{
     font-size: 1.5rem;
     padding-top: 1rem;
+}
+.mobdropabout{
+    display: none;
+}
+.mobofferingdrop{
+    display: none;
+}
+.mobbrandsdrop{
+    display: none;
 }
 header{
     padding: 12rem 0;

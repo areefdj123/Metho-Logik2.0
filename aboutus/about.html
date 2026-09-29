@@ -19,7 +19,17 @@
                         style="color: rgb(138, 141, 145);"></i></div>
                 <ul class="sidelink">
                     <li><a href="/index.html">Home</a></li>
-                    <li><a href="#">About Us</a>
+                    <li><a href="#" onclick="showabout()">About Us <i class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
+                        <div class="mobdropabout">
+                            <h4 id="mobaboutusheading"><a id="mobdroplink" href="/aboutus/about.html"
+                                    style="color: rgb(182, 20, 23);">About US</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/company-culture/company.html"
+                                    style="color: rgb(182, 20, 23);">Company Culture</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/ourteam/ourteam.html"
+                                    style="color: rgb(182, 20, 23);">Our Team</a></h4>
+                            <h4 id="mobcompcult"><a id="mobdroplink" href="/careers/careers.html"
+                                    style="color: rgb(182, 20, 23);">Careers</a></h4>
+                        </div>
                         <div class="mega-menu">
                             <div class="mainheading">
                                 <h2 id="megamenuheading">About Us</h2>
@@ -45,7 +55,31 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">Our Offering</a>
+                    <li><a href="#" onclick="showoffering()">Our Offering <i class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
+                        <div class="mobofferingdrop">
+                            <h4 id="mobofferingheading"><a href="/software-development-page/index.html"
+                                    style="color: rgb(182, 20, 23);">Software Development</a></h4>
+                            <h4 id="mobfferingheading"><a href="/ERPNext-page/erpnext.html"
+                                    style="color: rgb(182, 20, 23);">ERPNext Consultancy</a></h4>
+                            <h4 id="mobofferingheading"><a href="/artificial-intelligence/ai.html"
+                                    style="color: rgb(182, 20, 23);">AI & LLM Solutions</a></h4>
+                            <h4 id="mobofferingheading"><a href="/Data-Analytics/dataanalytics.html"
+                                    style="color: rgb(182, 20, 23);">Data Analytics</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-implementation/digital.html"
+                                    style="color: rgb(182, 20, 23);">Digital Implementation</a></h4>
+                            <h4 id="mobofferingheading"><a href="/cloud/cloud.html"
+                                    style="color: rgb(182, 20, 23);">Cloud</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-strategy/strategy.html"
+                                    style="color: rgb(182, 20, 23);">Strategic Insights & Advisory Services</a></h4>
+                            <h4 id="mobofferingheading"><a href="/digital-marketing/marketing.html"
+                                    style="color: rgb(182, 20, 23);">Digital Marketing</a></h4>
+                            <h4 id="mobofferingheading"><a href="/uxandui/ux-ui.html"
+                                    style="color: rgb(182, 20, 23);">Poduct Design (UX/UI)</a></h4>
+                            <h4 id="mobofferingheading"><a href="/resource-page/resource.html"
+                                    style="color: rgb(182, 20, 23);">Resource Hiring</a></h4>
+                            <h4 id="mobofferingheading"><a href="/porject-management/project.html"
+                                    style="color: rgb(182, 20, 23);">Project Manager</a></h4>
+                        </div>
                         <div class="mega-menu">
                             <div class="megamenuheading">
                                 <h2 id="megamenuheading">Our Offering</h2>
@@ -81,7 +115,12 @@
                             </div>
                         </div>
                     </li>
-                    <li><a href="#">Brands</a>
+                    <li><a href="#" onclick="showbrands()">Brands <i class="fa-solid fa-angle-down" style="color: rgb(0, 0, 0);"></i></a>
+                        <div class="mobbrandsdrop">
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Cabil</a></h4>
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Imady</a></h4>
+                            <h4 id="mobbrandheading"><a href="" style="color: rgb(182, 20, 23);">Analytic Nests</a></h4>
+                        </div>
                         <div class="mega-menu">
                             <div class="mainheading">
                                 <h2 id="megamenuheading">Our Brand</h2>
@@ -548,6 +587,43 @@
         function hidesidebar(){
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
+        }
+        function showabout() {
+            const brands = document.querySelector('.mobdropabout')
+            if (brands.style.display === "block") {
+                brands.style.display = "none";
+            } else {
+                brands.style.display = "block";
+            }
+        }
+        function showoffering() {
+            const offering = document.querySelector('.mobofferingdrop')
+            if (offering.style.display === "block") {
+                offering.style.display = "none";
+            } else {
+                offering.style.display = "block";
+            }
+        }
+
+
+        function showbrands() {
+            const brands = document.querySelector('.mobbrandsdrop')
+            if (brands.style.display === "block") {
+                brands.style.display = "none";
+            } else {
+                brands.style.display = "block";
+            }
+        }
+        function arrowup() {
+            const arrowupside = document.querySelector('#mobilearrow')
+
+            if (arrowupside.style.display === "block") {
+                arrowupside.style.display = "none";
+                arrowupside.style.transform = "rotate(0deg)";
+            } else {
+                arrowupside.style.display = "block";
+                arrowupside.style.transform = "rotate(180deg)";
+            }
         }
         
     </script>

@@ -10,7 +10,7 @@
     }
     .hamburger{
         display: block !important;
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
     .btn {
         height: 47px !important;
@@ -435,7 +435,7 @@
         width: 50% !important;
     }
 }
-    @media (min-width: 1440px) and (max-width: 2560px) {
+    @media (min-width: 1439px) and (max-width: 2560px) {
         .container{
             padding: 0 10rem !important;
         }
@@ -1200,7 +1200,7 @@ video {
 }
 
 #fullinput {
-    width: 78%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1213,7 +1213,7 @@ video {
 }
 
 #emailinput {
-    width: 80%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1242,7 +1242,7 @@ video {
 }
 
 #numberinput {
-    width: 80%;
+    width: 100%;
     padding: 12px 23.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;
@@ -1286,7 +1286,7 @@ video {
 }
 
 #yourmessage {
-    width: 90%;
+    width: 100%;
     padding: 12px 29.5px;
     border-radius: 14px;
     border: 1px solid #5c5e62;

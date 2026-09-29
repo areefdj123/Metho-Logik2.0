@@ -13,7 +13,7 @@
     }
     .hamburger{
         display: block !important;
-        font-size: 2rem !important;
+        font-size: 1.5rem !important;
     }
     li a{
         justify-content: flex-start !important;

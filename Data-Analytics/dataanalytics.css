@@ -42,7 +42,7 @@
         padding: 0 1rem !important;
     }
     #mainlogo{
-        max-width: 50% !important;
+        max-width: 90% !important;
     }
     #maintextheading{
         font-size: 30px !important;
@@ -267,7 +267,7 @@
         gap: 32rem !important;
     }
     #mainlogo{
-        width: 25% !important;
+        width: 100% !important;
     }
     .container{
         flex-direction: column !important;
@@ -340,9 +340,9 @@
         width: 25% !important;
     }
     }
-    @media (min-width: 1024px) and (max-width: 1200px){
+    @media (min-width: 1024px) and (max-width: 1439px){
         #mainlogo{
-            width: 18% !important;
+            width: 100% !important;
         }
         li a {
             font-size: 12px !important;
@@ -501,7 +501,7 @@ nav {
 
 #mainlogo {
     height: auto;
-    max-width: 16%;
+    max-width: 100%;
     display: block;
 }
 
@@ -521,7 +521,7 @@ li a {
     align-items: center;
     padding-top: 10px;
     justify-content: center;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 a:hover {

@@ -28,7 +28,7 @@
         display: none !important;
     }
     #mainlogo{
-        max-width: 50% !important;
+        max-width: 90% !important;
     }
 
     nav {
@@ -286,7 +286,7 @@
         display: block !important;
     }
     #mainlogo{
-        width: 25% !important;
+        width: 100% !important;
     }
 
     nav {
@@ -367,12 +367,12 @@
         width: 50% !important;
     }
     }
-    @media (min-width: 1024px) and (max-width: 1300px) {
+    @media (min-width: 1024px) and (max-width: 1439px) {
         li a {
             font-size: 14px !important;
         }
         #mainlogo{
-            width: 20% !important;
+            width: 100% !important;
         }
         #eighthsection{
             padding: 8rem 0 5rem !important;
@@ -506,7 +506,7 @@ nav {
 
 #mainlogo {
     height: auto;
-    max-width: 16%;
+    max-width: 100%;
     display: block;
 }
 

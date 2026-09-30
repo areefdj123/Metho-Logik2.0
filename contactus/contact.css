@@ -25,7 +25,7 @@
         display: none !important;
     }
     #mainlogo{
-        max-width: 50% !important;
+        max-width: 90% !important;
     }
 
     nav {
@@ -196,7 +196,7 @@
         font-size: 2rem !important;
     }
     #mainlogo{
-        max-width: 25% !important;
+        max-width: 100% !important;
     }
 
     nav {
@@ -273,12 +273,12 @@
         width: 50% !important;
     }
     }
-    @media (min-width: 1024px) and (max-width: 1350px) {
+    @media (min-width: 1024px) and (max-width: 1439px) {
         li a{
             font-size: 14px !important;
         }
         #mainlogo{
-            width: 21% !important;
+            max-width: 100% !important;
         }
         .btn{
             width: 9rem !important;
@@ -368,7 +368,7 @@ nav {
 
 #mainlogo{
     height: auto;
-    max-width: 16%;
+    max-width: 100%;
     display: block;
 }
 
